@@ -1,0 +1,270 @@
+body {
+	background: #cccccc;
+}
+
+.stage {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+#oval {
+	width: 30px;
+	height: 70px;
+	background: black;
+	border-radius: 30px / 70px;
+	top: 245px;
+	left: 412px;
+	position: absolute;
+}
+
+#oval1 {
+	width: 40px;
+	height: 80px;
+	background: #D4D4D4;
+	border-radius: 40px / 80px;
+	top: 240px;
+	left: 412px;
+	position: absolute;
+
+}
+
+#oval2 {
+	width: 50px;
+	height: 100px;
+	background: black;
+	border-radius: 50px / 100px;
+	top: 230px;
+	left: 410px;
+	position: absolute;
+
+}
+
+#oval3 {
+	width: 50px;
+	height: 100px;
+	background: grey;
+	border-radius: 50px / 100px;
+	top: 230px;
+	left: 400px;
+	position: absolute;
+
+}
+
+#oval4 {
+	width: 50px;
+	height: 100px;
+	background: black;
+	border-radius: 50px / 100px;
+	top: 230px;
+	left: 380px;
+	position: absolute;
+
+}
+
+#square3 {
+	width: 20px;
+	height: 100px;
+	background: grey;
+	top: 230px;
+	left: 386px;
+	position: absolute;
+
+}
+
+#oval5 {
+	width: 50px;
+	height: 100px;
+	background: grey;
+	border-radius: 50px / 100px;
+	top: 230px;
+	left: 360px;
+	position: absolute;
+
+}
+
+#oval6 {
+	width: 25px;
+	height: 10px;
+	background: #D4D4D4;
+	border-radius: 25px / 10px;
+	top: 180px;
+	left: 290px;
+	position: absolute;
+
+}
+
+#square8 {
+	width: 25px;
+	height: 5px;
+	background: grey;
+	top: 185px;
+	left: 290px;
+	position: absolute;
+
+}
+
+#square9 {
+	width: 5px;
+	height: 50px;
+	background: grey;
+	top: 240px;
+	left: 330px;
+	position: absolute;
+	transform: skewY(-20deg);
+
+}
+
+#oval8 {
+	width: 15px;
+	height: 25px;
+	background: grey;
+	border-radius: 15px / 25px;
+	top: 280px;
+	left: 330px;
+	position: absolute;
+
+}
+
+#oval7 {
+	width: 25px;
+	height: 10px;
+	background: grey;
+	border-radius: 25px / 10px;
+	top: 185px;
+	left: 290px;
+	position: absolute;
+
+}
+
+#square {
+	width: 100px;
+	height: 200px;
+	background: black;
+	top: 180px;
+	left: 310px;
+	transform: skewY(-20deg);
+
+	position: absolute;
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+
+#square2 {
+	width: 50px;
+	height: 100px;
+	background: black;
+	top: 230px;
+	left: 386px;
+	position: absolute;
+lens
+}
+
+#square3 {
+	width: 50px;
+	height: 200px;
+	background: #grey;
+	top: 198px;
+	left: 260px;
+	position: absolute;
+
+}
+
+#square4 {
+	width: 20px;
+	height: 100px;
+	background: grey;
+	top: 230px;
+	left: 386px;
+	position: absolute;
+lens
+}
+
+#square5 {
+	width: 48.5px;
+	height: 37px;
+	background: #B0B0B0;
+	top: 161px;
+	left: 312px;
+	transform: skew(110deg);
+	position: absolute;
+
+}
+
+#square6 {
+	width: 100px;
+	height: 35px;
+	background: #D4D4D4;
+	top: 180px;
+	left: 310px;
+	transform: skewY(-20deg);
+	position: absolute;
+
+}
+
+#square7 {
+	width: 30px;
+	height: 20px;
+	background: white;
+	top: 180px;
+	left: 370px;
+	transform: skewY(-20deg);
+	position: absolute;
+
+}
+
+#circle {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	border-radius: 150px;
+	top: 203px;
+	left: 480px;
+	position: absolute;
+}
+
+#clip {
+	width: 150px;
+	height: 150px;
+	background: green;
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	top: 203px;
+	left: 690px;
+	position: absolute;
+
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+}
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/
