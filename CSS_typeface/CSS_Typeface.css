@@ -1,0 +1,21 @@
+body {
+	background: #cccccc;
+}
+
+.stage {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+#oval {
+	width: 30px;
+	height: 70px;
+	background: black;
+	border-radius: 30px / 70px;
+	top: 245px;
+	left: 412px;
+	position: absolute;
+}
