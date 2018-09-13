@@ -218,10 +218,100 @@ lens
 
 }
 
+#square10 {
+	width: 50px;
+	height: 20px;
+	background: #D4D4D4;
+	top: 198px;
+	left: 260px;
+	position: absolute;
+
+}
+
+#square11 {
+	width: 20px;
+	height: 15px;
+	background: black;
+	top: 195px;
+	left: 340px;
+	transform: skewY(-20deg);
+	position: absolute;
+
+}
+
+#square12 {
+	width: 100px;
+	height: 15px;
+	background: #D4D4D4;
+	top: 365px;
+	left: 310px;
+	transform: skewY(-20deg);
+	position: absolute;
+
+}
+
+#square13 {
+	width: 50px;
+	height: 15px;
+	background: #D4D4D4;
+	top: 383px;
+	left: 260px;
+	position: absolute;
 	/* uncomment for css transitions */
 	/* transition: all 400ms ease; */
 }
 
+#square14 {
+	width: 40px;
+	height: 15px;
+	background: black;
+	top: 240px;
+	left: 265px;
+	position: absolute;
+
+}
+
+#square15 {
+	width: 30px;
+	height: 90px;
+	background: #C4C4C4;
+	top: 270px;
+	left: 270px;
+	position: absolute;
+
+}
+
+#square16 {
+	width: 20px;
+	height: 5px;
+	background: grey;
+	top: 170px;
+	left: 320px;
+	transform: skew(110deg);
+	position: absolute;
+
+}
+
+#square17 {
+	width: 20px;
+	height: 5px;
+	background: #D4D4D4;
+	top: 175px;
+	left: 314px;
+	position: absolute;
+
+}
+
+#square18 {
+	width: 15px;
+	height: 5px;
+	background: #C4C4C4;
+	top: 172px;
+	left: 334px;
+	transform: skewY(-20deg);
+	position: absolute;
+
+}
 /* animations */
 
 /*
