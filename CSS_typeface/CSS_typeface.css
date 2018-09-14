@@ -3,19 +3,263 @@ body {
 }
 
 .stage {
-	width: 900px;
-	height: 556px;
+	width: 1000px;
+	height: 600px;
 	margin: 100px auto;
 	background: white;
 	position: relative;
 }
 
-#oval {
-	width: 30px;
-	height: 70px;
+#A-base {
+	width: 75px;
+	height: 100px;
 	background: black;
-	border-radius: 30px / 70px;
-	top: 245px;
-	left: 412px;
+	top: 50px;
+	left: 37px;
+	position: absolute;
+}
+
+#A-stem-b {
+	width: 10px;
+	height: 25px;
+	background: white;
+	top: 125px;
+	left: 69.5px;
+	position: absolute;
+}
+
+#A-stem-c {
+	width: 10px;
+	height: 25px;
+	background: white;
+	top: 80px;
+	left: 69.5px;
+	transform: rotate(-45deg);
+	position: absolute;
+}
+
+#B-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 50px;
+	left: 122px;
+	position: absolute;
+}
+
+#B-stem-t {
+	width: 10px;
+	height: 25px;
+	background: white;
+	top: 65px;
+	left: 152px;
+	transform: rotate(-45deg);
+	position: absolute;
+}
+
+#B-stem-b {
+	width: 10px;
+	height: 25px;
+	background: white;
+	top: 110px;
+	left: 152px;
+	transform: rotate(-45deg);
+	position: absolute;
+}
+
+#B-stem-c {
+	width: 10px;
+	height: 20px;
+	background: white;
+	top: 90px;
+	left: 182px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#C-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 50px;
+	left: 207px;
+	position: absolute;
+}
+
+#C-stem-c {
+	width: 10px;
+	height: 50px;
+	background: white;
+	top: 75px;
+	left: 239px;
+	position: absolute;
+}
+
+#C-stem-r {
+	width: 10px;
+	height: 35px;
+	background: white;
+	top: 82px;
+	left: 260px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#D-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 50px;
+	left: 292px;
+	position: absolute;
+}
+
+#D-stem-c {
+	width: 10px;
+	height: 35px;
+	background: white;
+	top: 82px;
+	left: 324px;
+	transform: rotate(-45deg);
+	position: absolute;
+}
+
+#D-space-b {
+	width: 0;
+	height: 0;
+	top: 130px;
+	left: 347px;
+	border-bottom: 20px solid white;
+	border-left: 20px solid transparent;
+	position: absolute;
+}
+
+#D-space-t {
+	width: 0;
+	height: 0;
+	top: 50px;
+	left: 347px;
+	border-top: 20px solid white;
+	border-left: 20px solid transparent;
+	position: absolute;
+}
+
+#E-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 50px;
+	left: 377px;
+	position: absolute;
+}
+
+#E-stem-t {
+	width: 10px;
+	height: 25px;
+	background: white;
+	top: 70px;
+	left: 435px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#E-stem-b {
+	width: 10px;
+	height: 25px;
+	background: white;
+	top: 105px;
+	left: 435px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#F-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 50px;
+	left: 462px;
+	position: absolute;
+}
+
+#F-stem-t {
+	width: 10px;
+	height: 25px;
+	background: white;
+	top: 70px;
+	left: 520px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#F-space-b {
+	width: 25px;
+	height: 33px;
+	background: white;
+	top: 117px;
+	left: 512px;
+	position: absolute;
+}
+
+#G-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 160px;
+	left: 122px;
+	position: absolute;
+}
+
+#G-stem-c {
+	width: 10px;
+	height: 60px;
+	background: red;
+	top: 180px;
+	left: 155px;
+	position: absolute;
+}
+
+#A1-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 50px;
+	left: 547px;
+	position: absolute;
+}
+
+#A2-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 50px;
+	left: 632px;
+	position: absolute;
+}
+
+#A3-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 50px;
+	left: 717px;
+	position: absolute;
+}
+
+#A4-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 50px;
+	left: 803px;
+	position: absolute;
+}
+
+#A5-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 50px;
+	left: 887px;
 	position: absolute;
 }
