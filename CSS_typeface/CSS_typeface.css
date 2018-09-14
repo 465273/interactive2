@@ -219,6 +219,33 @@ body {
 	position: absolute;
 }
 
+#H-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 160px;
+	left: 207px;
+	position: absolute;
+}
+
+#H-stem-t {
+	width: 10px;
+	height: 60px;
+	background: red;
+	top: 180px;
+	left: 155px;
+	position: absolute;
+}
+
+#H-stem-b {
+	width: 10px;
+	height: 60px;
+	background: red;
+	top: 180px;
+	left: 155px;
+	position: absolute;
+}
+
 #A1-base {
 	width: 75px;
 	height: 100px;
