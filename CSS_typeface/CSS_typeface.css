@@ -22,7 +22,7 @@ body {
 #A-stem-b {
 	width: 10px;
 	height: 25px;
-	background: red;
+	background: white;
 	top: 125px;
 	left: 69.5px;
 	position: absolute;
@@ -31,7 +31,7 @@ body {
 #A-stem-c {
 	width: 10px;
 	height: 25px;
-	background: red;
+	background: white;
 	top: 80px;
 	left: 69.5px;
 	transform: rotate(-45deg);
@@ -210,12 +210,22 @@ body {
 	position: absolute;
 }
 
-#G-stem-c {
+#G-stem-t {
 	width: 10px;
-	height: 60px;
+	height: 30px;
 	background: red;
 	top: 180px;
 	left: 155px;
+	position: absolute;
+}
+
+#G-stem-r {
+	width: 10px;
+	height: 34px;
+	background: red;
+	top: 195px;
+	left: 177px;
+	transform: rotate(90deg);
 	position: absolute;
 }
 
@@ -230,19 +240,76 @@ body {
 
 #H-stem-t {
 	width: 10px;
-	height: 60px;
-	background: red;
-	top: 180px;
-	left: 155px;
+	height: 30px;
+	background: white;
+	top: 160px;
+	left: 239px;
 	position: absolute;
 }
 
 #H-stem-b {
 	width: 10px;
-	height: 60px;
-	background: red;
-	top: 180px;
-	left: 155px;
+	height: 30px;
+	background: white;
+	top: 230px;
+	left: 239px;
+	position: absolute;
+}
+
+#I-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 160px;
+	left: 292px;
+	position: absolute;
+}
+
+#I-stem-r {
+	width: 10px;
+	height: 25px;
+	background: white;
+	top: 197px;
+	left: 350px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#I-stem-l {
+	width: 10px;
+	height: 25px;
+	background: white;
+	top: 197px;
+	left: 299px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#J-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 160px;
+	left: 377px;
+	position: absolute;
+}
+
+#J-stem-t {
+	width: 10px;
+	height: 34px;
+	background: white;
+	top: 178px;
+	left: 387px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#J-stem-c {
+	width: 10px;
+	height: 40px;
+	background: white;
+	top: 190px;
+	left: 409px;
 	position: absolute;
 }
 
