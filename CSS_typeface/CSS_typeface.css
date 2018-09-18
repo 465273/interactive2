@@ -22,7 +22,7 @@ body {
 #A-stem-b {
 	width: 10px;
 	height: 25px;
-	background: white;
+	background: red;
 	top: 125px;
 	left: 69.5px;
 	position: absolute;
@@ -31,7 +31,7 @@ body {
 #A-stem-c {
 	width: 10px;
 	height: 25px;
-	background: white;
+	background: red;
 	top: 80px;
 	left: 69.5px;
 	transform: rotate(-45deg);
@@ -224,7 +224,7 @@ body {
 	height: 100px;
 	background: black;
 	top: 160px;
-	left: 207px;
+  left: 207px;
 	position: absolute;
 }
 
