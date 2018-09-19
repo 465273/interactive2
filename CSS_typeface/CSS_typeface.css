@@ -4,7 +4,7 @@ body {
 
 .stage {
 	width: 1000px;
-	height: 600px;
+	height: 700px;
 	margin: 100px auto;
 	background: white;
 	position: relative;
@@ -21,7 +21,7 @@ body {
 
 #A-stem-b {
 	width: 10px;
-	height: 25px;
+	height: 27px;
 	background: white;
 	top: 125px;
 	left: 69.5px;
@@ -69,9 +69,9 @@ body {
 
 #B-stem-c {
 	width: 10px;
-	height: 20px;
+	height: 22px;
 	background: white;
-	top: 90px;
+	top: 89px;
 	left: 182px;
 	transform: rotate(90deg);
 	position: absolute;
@@ -129,8 +129,8 @@ body {
 	height: 0;
 	top: 130px;
 	left: 347px;
-	border-bottom: 20px solid white;
-	border-left: 20px solid transparent;
+	border-bottom: 21px solid white;
+	border-left: 21px solid transparent;
 	position: absolute;
 }
 
@@ -139,8 +139,8 @@ body {
 	height: 0;
 	top: 50px;
 	left: 347px;
-	border-top: 20px solid white;
-	border-left: 20px solid transparent;
+	border-top: 21px solid white;
+	border-left: 21px solid transparent;
 	position: absolute;
 }
 
@@ -193,8 +193,8 @@ body {
 }
 
 #F-space-b {
-	width: 25px;
-	height: 33px;
+	width: 27px;
+	height: 35px;
 	background: white;
 	top: 117px;
 	left: 512px;
@@ -213,7 +213,7 @@ body {
 #G-stem-t {
 	width: 10px;
 	height: 30px;
-	background: red;
+	background: white;
 	top: 180px;
 	left: 155px;
 	position: absolute;
@@ -221,11 +221,32 @@ body {
 
 #G-stem-r {
 	width: 10px;
-	height: 34px;
-	background: red;
-	top: 195px;
-	left: 177px;
+	height: 65px;
+	background: white;
+	top: 179px;
+	left: 161px;
 	transform: rotate(90deg);
+	clip-path: polygon(0% 0%, 100% 0%, 100% 55px, 0% 100%);
+	position: absolute;
+}
+
+#G-stem-slant {
+	width: 10px;
+	height: 44px;
+	background: white;
+	top: 197px;
+	left: 148px;
+	transform: rotate(-45deg);
+	clip-path: polygon(0% 0%, 100% 10px, 100% 34px, 0% 100%);
+	position: absolute;
+}
+
+#G-stem-b {
+	width: 10px;
+	height: 20px;
+	background: white;
+	top: 224px;
+	left: 155px;
 	position: absolute;
 }
 
@@ -240,19 +261,19 @@ body {
 
 #H-stem-t {
 	width: 10px;
-	height: 30px;
+	height: 32px;
 	background: white;
-	top: 160px;
-	left: 239px;
+	top: 158px;
+	left: 240px;
 	position: absolute;
 }
 
 #H-stem-b {
 	width: 10px;
-	height: 30px;
+	height: 32px;
 	background: white;
 	top: 230px;
-	left: 239px;
+	left: 240px;
 	position: absolute;
 }
 
@@ -267,20 +288,20 @@ body {
 
 #I-stem-r {
 	width: 10px;
-	height: 25px;
+	height: 27px;
 	background: white;
-	top: 197px;
-	left: 350px;
+	top: 196px;
+	left: 351px;
 	transform: rotate(90deg);
 	position: absolute;
 }
 
 #I-stem-l {
 	width: 10px;
-	height: 25px;
+	height: 27px;
 	background: white;
-	top: 197px;
-	left: 299px;
+	top: 196px;
+	left: 298px;
 	transform: rotate(90deg);
 	position: absolute;
 }
@@ -299,7 +320,7 @@ body {
 	height: 34px;
 	background: white;
 	top: 178px;
-	left: 387px;
+	left: 388px;
 	transform: rotate(90deg);
 	position: absolute;
 }
@@ -313,10 +334,446 @@ body {
 	position: absolute;
 }
 
-#A1-base {
+#K-base {
 	width: 75px;
 	height: 100px;
 	background: black;
+	top: 160px;
+	left: 462px;
+	position: absolute;
+}
+
+#K-stem-t {
+	width: 10px;
+	height: 32px;
+	background: white;
+	top: 158px;
+	left: 495px;
+	position: absolute;
+}
+
+#K-stem-c {
+	width: 10px;
+	height: 22px;
+	background: white;
+	top: 199px;
+	left: 522px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#K-stem-b {
+	width: 10px;
+	height: 32px;
+	background: white;
+	top: 230px;
+	left: 495px;
+	position: absolute;
+}
+
+#L-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 160px;
+	left: 547px;
+	position: absolute;
+}
+
+#L-space {
+	width: 27px;
+	height: 60px;
+	background: white;
+	top: 158px;
+	left: 597px;
+	position: absolute;
+}
+
+#M-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 270px;
+	left: 207px;
+	position: absolute;
+}
+
+#M-stem-l {
+	width: 10px;
+	height: 32px;
+	background: white;
+	top: 340px;
+	left: 226px;
+	position: absolute;
+}
+
+#M-stem-r {
+	width: 10px;
+	height: 32px;
+	background: white;
+	top: 340px;
+	left: 254px;
+	position: absolute;
+}
+
+#N-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 270px;
+	left: 292px;
+	position: absolute;
+}
+
+#N-stem-b {
+	width: 10px;
+	height: 32px;
+	background: white;
+	top: 340px;
+	left: 311px;
+	position: absolute;
+}
+
+#N-stem-t {
+	width: 10px;
+	height: 32px;
+	background: white;
+	top: 268px;
+	left: 339px;
+	position: absolute;
+}
+
+#O-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 270px;
+	left: 377px;
+	position: absolute;
+}
+
+#O-stem {
+	width: 10px;
+	height: 50px;
+	background: white;
+	top: 295px;
+	left: 409px;
+	position: absolute;
+}
+
+#P-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 270px;
+	left: 462px;
+	position: absolute;
+}
+
+#P-stem {
+	width: 10px;
+	height: 25px;
+	background: white;
+	top: 290px;
+	left: 493px;
+	transform: rotate(-45deg);
+	position: absolute;
+}
+
+#P-space {
+	width: 27px;
+	height: 35px;
+	background: white;
+	top: 337px;
+	left: 512px;
+	position: absolute;
+}
+
+#Q-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 270px;
+	left: 547px;
+	position: absolute;
+}
+
+#Q-stem {
+	width: 10px;
+	height: 25px;
+	background: white;
+	top: 290px;
+	left: 580px;
+	transform: rotate(-45deg);
+	position: absolute;
+}
+
+#Q-space {
+	width: 27px;
+	height: 35px;
+	background: white;
+	top: 337px;
+	left: 547px;
+	position: absolute;
+}
+
+#R-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 270px;
+	left: 632px;
+	position: absolute;
+}
+
+#R-stem-t {
+	width: 10px;
+	height: 25px;
+	background: white;
+	top: 285px;
+	left: 660px;
+	transform: rotate(-45deg);
+	position: absolute;
+}
+
+#R-stem-b {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 345px;
+	left: 665px;
+	position: absolute;
+}
+
+#R-stem-c {
+	width: 10px;
+	height: 22px;
+	background: white;
+	top: 310px;
+	left: 695px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#S-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 380px;
+	left: 292px;
+	position: absolute;
+}
+
+#S-stem-t {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 400px;
+	left: 350px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#S-stem-b {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 435px;
+	left: 299px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#T-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 380px;
+	left: 377px;
+	position: absolute;
+}
+
+#T-space-l {
+	width: 22px;
+	height: 52px;
+	background: white;
+	top: 430px;
+	left: 375px;
+	position: absolute;
+}
+
+#T-space-r {
+	width: 22px;
+	height: 52px;
+	background: white;
+	top: 430px;
+	left: 432px;
+	position: absolute;
+}
+
+#U-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 380px;
+	left: 462px;
+	position: absolute;
+}
+
+#U-stem {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 380px;
+	left: 495px;
+	position: absolute;
+}
+
+#U-space-l {
+	width: 0;
+	height: 0;
+	top: 460px;
+	left: 461px;
+	border-bottom: 21px solid white;
+	border-right: 21px solid transparent;
+	position: absolute;
+}
+
+#U-space-r {
+	width: 0;
+	height: 0;
+	top: 460px;
+	left: 517px;
+	border-bottom: 21px solid white;
+	border-left: 21px solid transparent;
+	position: absolute;
+}
+
+#V-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 380px;
+	left: 547px;
+	position: absolute;
+}
+
+#V-stem {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 380px;
+	left: 580px;
+	position: absolute;
+}
+
+#V-space-l {
+	width: 0;
+	height: 0;
+	top: 442px;
+	left: 546px;
+	border-bottom: 40px solid white;
+	border-right: 40px solid transparent;
+	position: absolute;
+}
+
+#V-space-r {
+	width: 0;
+	height: 0;
+	top: 442px;
+	left: 583px;
+	border-bottom: 40px solid white;
+	border-left: 40px solid transparent;
+	position: absolute;
+}
+
+#W-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 380px;
+	left: 632px;
+	position: absolute;
+}
+
+#W-stem-l {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 380px;
+	left: 651px;
+	position: absolute;
+}
+
+#W-stem-r {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 380px;
+	left: 679px;
+	position: absolute;
+}
+
+#W-stem-b {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 455px;
+	left: 665px;
+	position: absolute;
+}
+
+#X-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 380px;
+	left: 717px;
+	position: absolute;
+}
+
+#X-stem-t {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 378px;
+	left: 750px;
+	position: absolute;
+}
+
+#X-stem-b {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 455px;
+	left: 750px;
+	position: absolute;
+}
+
+#X-stem-l {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 417px;
+	left: 724px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#X-stem-r {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 417px;
+	left: 775px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#A1-base {
+	width: 75px;
+	height: 100px;
+	background: #FBFCFC;
 	top: 50px;
 	left: 547px;
 	position: absolute;
@@ -325,7 +782,7 @@ body {
 #A2-base {
 	width: 75px;
 	height: 100px;
-	background: black;
+	background: #FBFCFC;
 	top: 50px;
 	left: 632px;
 	position: absolute;
@@ -334,7 +791,7 @@ body {
 #A3-base {
 	width: 75px;
 	height: 100px;
-	background: black;
+	background: #FBFCFC;
 	top: 50px;
 	left: 717px;
 	position: absolute;
@@ -343,7 +800,7 @@ body {
 #A4-base {
 	width: 75px;
 	height: 100px;
-	background: black;
+	background: #FBFCFC;
 	top: 50px;
 	left: 803px;
 	position: absolute;
@@ -352,7 +809,7 @@ body {
 #A5-base {
 	width: 75px;
 	height: 100px;
-	background: black;
+	background: #FBFCFC;
 	top: 50px;
 	left: 887px;
 	position: absolute;
