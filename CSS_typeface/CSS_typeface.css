@@ -813,7 +813,7 @@ body {
 	height: 100px;
 	background: black;
 	top: 490px;
-	left: 465px;
+	left: 462px;
 	position: absolute;
 }
 
@@ -822,7 +822,7 @@ body {
 	height: 27px;
 	background: white;
 	top: 510px;
-	left: 472px;
+	left: 469px;
 	transform: rotate(90deg);
 	position: absolute;
 }
@@ -834,6 +834,34 @@ body {
 	top: 545px;
 	left: 523px;
 	transform: rotate(90deg);
+	position: absolute;
+}
+
+#N1-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 490px;
+	left: 547px;
+	position: absolute;
+}
+
+#N1-stem {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 525px;
+	left: 554px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#N1-space {
+	width: 22px;
+	height: 52px;
+	background: white;
+	top: 488px;
+	left: 602px;
 	position: absolute;
 }
 
