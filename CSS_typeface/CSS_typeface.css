@@ -770,6 +770,73 @@ body {
 	position: absolute;
 }
 
+#Y-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 490px;
+	left: 377px;
+	position: absolute;
+}
+
+#Y-stem {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 488px;
+	left: 410px;
+	position: absolute;
+}
+
+#Y-space-l {
+	width: 20px;
+	height: 50px;
+	top: 541px;
+	left: 376px;
+	background: white;
+	clip-path: polygon(0% 0%, 100% 20px, 100% 100%, 0% 100%);
+	position: absolute;
+}
+
+#Y-space-r {
+	width: 20px;
+	height: 50px;
+	top: 541px;
+	left: 433px;
+	background: white;
+	clip-path: polygon(0% 20px, 100% 0%, 100% 100%, 0% 100%);
+	position: absolute;
+}
+
+#Z-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 490px;
+	left: 465px;
+	position: absolute;
+}
+
+#Z-stem-l {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 510px;
+	left: 472px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#Z-stem-r {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 545px;
+	left: 523px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
 #A1-base {
 	width: 75px;
 	height: 100px;
