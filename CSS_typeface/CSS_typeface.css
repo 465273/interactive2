@@ -1,8 +1,154 @@
 body {
-	background: #cccccc;
+	background: white;
 }
 
-.stage {
+.stage1 {
+	width: 1000px;
+	height: 800px;
+	margin: 50px auto;
+	background: white;
+	position: relative;
+}
+
+#MEGAm-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 270px;
+	left: 334px;
+	position: absolute;
+}
+
+#MEGAm-stem-l {
+	width: 10px;
+	height: 32px;
+	background: white;
+	top: 340px;
+	left: 353px;
+	position: absolute;
+}
+
+#MEGAm-stem-r {
+	width: 10px;
+	height: 32px;
+	background: white;
+	top: 340px;
+	left: 381px;
+	position: absolute;
+}
+
+#MEGAe-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 270px;
+	left: 420px;
+	position: absolute;
+}
+
+#MEGAe-stem-t {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 289px;
+	left: 478px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#MEGAe-stem-b {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 324px;
+	left: 478px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#MEGAg-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 270px;
+	left: 505px;
+	position: absolute;
+}
+
+#MEGAg-stem-t {
+	width: 10px;
+	height: 30px;
+	background: white;
+	top: 290px;
+	left: 538px;
+	position: absolute;
+}
+
+#MEGAg-stem-r {
+	width: 10px;
+	height: 65px;
+	background: white;
+	top: 289px;
+	left: 544px;
+	transform: rotate(90deg);
+	clip-path: polygon(0% 0%, 100% 0%, 100% 55px, 0% 100%);
+	position: absolute;
+}
+
+#MEGAg-stem-slant {
+	width: 10px;
+	height: 44px;
+	background: white;
+	top: 307px;
+	left: 531px;
+	transform: rotate(-45deg);
+	clip-path: polygon(0% 0%, 100% 10px, 100% 34px, 0% 100%);
+	position: absolute;
+}
+
+#MEGAg-stem-b {
+	width: 10px;
+	height: 20px;
+	background: white;
+	top: 334px;
+	left: 538px;
+	position: absolute;
+}
+
+#MEGAa-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 270px;
+	left: 590px;
+	position: absolute;
+}
+
+#MEGAa-stem-b {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 345px;
+	left: 622px;
+	position: absolute;
+}
+
+#MEGAa-stem-c {
+	width: 10px;
+	height: 25px;
+	background: white;
+	top: 300px;
+	left: 622px;
+	transform: rotate(-45deg);
+	position: absolute;
+}
+
+
+
+
+
+
+.stage2 {
 	width: 1000px;
 	height: 800px;
 	margin: 100px auto;
