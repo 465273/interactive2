@@ -4,7 +4,7 @@ body {
 
 .stage {
 	width: 1000px;
-	height: 700px;
+	height: 800px;
 	margin: 100px auto;
 	background: white;
 	position: relative;
@@ -155,9 +155,9 @@ body {
 
 #E-stem-t {
 	width: 10px;
-	height: 25px;
+	height: 27px;
 	background: white;
-	top: 70px;
+	top: 69px;
 	left: 435px;
 	transform: rotate(90deg);
 	position: absolute;
@@ -165,9 +165,9 @@ body {
 
 #E-stem-b {
 	width: 10px;
-	height: 25px;
+	height: 27px;
 	background: white;
-	top: 105px;
+	top: 104px;
 	left: 435px;
 	transform: rotate(90deg);
 	position: absolute;
@@ -184,9 +184,9 @@ body {
 
 #F-stem-t {
 	width: 10px;
-	height: 25px;
+	height: 27px;
 	background: white;
-	top: 70px;
+	top: 69px;
 	left: 520px;
 	transform: rotate(90deg);
 	position: absolute;
@@ -513,7 +513,7 @@ body {
 	height: 35px;
 	background: white;
 	top: 337px;
-	left: 547px;
+	left: 545px;
 	position: absolute;
 }
 
@@ -622,7 +622,7 @@ body {
 
 #U-stem {
 	width: 10px;
-	height: 27px;
+	height: 32px;
 	background: white;
 	top: 380px;
 	left: 495px;
@@ -660,7 +660,7 @@ body {
 
 #V-stem {
 	width: 10px;
-	height: 27px;
+	height: 32px;
 	background: white;
 	top: 380px;
 	left: 580px;
@@ -752,20 +752,20 @@ body {
 
 #X-stem-l {
 	width: 10px;
-	height: 27px;
+	height: 22px;
 	background: white;
-	top: 417px;
-	left: 724px;
+	top: 419px;
+	left: 722px;
 	transform: rotate(90deg);
 	position: absolute;
 }
 
 #X-stem-r {
 	width: 10px;
-	height: 27px;
+	height: 22px;
 	background: white;
-	top: 417px;
-	left: 775px;
+	top: 419px;
+	left: 777px;
 	transform: rotate(90deg);
 	position: absolute;
 }
@@ -781,7 +781,7 @@ body {
 
 #Y-stem {
 	width: 10px;
-	height: 27px;
+	height: 32px;
 	background: white;
 	top: 488px;
 	left: 410px;
@@ -858,10 +858,216 @@ body {
 
 #N1-space {
 	width: 22px;
-	height: 52px;
+	height: 56px;
 	background: white;
 	top: 488px;
 	left: 602px;
+	position: absolute;
+}
+
+#N2-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 490px;
+	left: 632px;
+	position: absolute;
+}
+
+#N2-stem-l {
+	width: 10px;
+	height: 40px;
+	background: white;
+	top: 519px;
+	left: 646px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#N2-stem-c {
+	width: 10px;
+	height: 25px;
+	background: white;
+	top: 519px;
+	left: 665px;
+	position: absolute;
+}
+
+#N2-stem-r {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 546px;
+	left: 690px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#N3-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 490px;
+	left: 717px;
+	position: absolute;
+}
+
+#N3-stem-t {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 511px;
+	left: 724px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#N3-stem-b {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 546px;
+	left: 724px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#N4-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 490px;
+	left: 802px;
+	position: absolute;
+}
+
+#N4-stem {
+	width: 10px;
+	height: 32px;
+	background: white;
+	top: 488px;
+	left: 835px;
+	position: absolute;
+}
+
+#N4-space {
+	width: 27px;
+	height: 35px;
+	background: white;
+	top: 557px;
+	left: 800px;
+	position: absolute;
+}
+
+#N5-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 600px;
+	left: 462px;
+	position: absolute;
+}
+
+#N5-stem-l {
+	width: 10px;
+	height: 40px;
+	background: white;
+	top: 629px;
+	left: 476px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#N5-stem-c {
+	width: 10px;
+	height: 25px;
+	background: white;
+	top: 644px;
+	left: 495px;
+	position: absolute;
+}
+
+#N5-stem-r {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 615px;
+	left: 520px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#N6-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 600px;
+	left: 547px;
+	position: absolute;
+}
+
+#N6-stem-t {
+	width: 10px;
+	height: 22px;
+	background: white;
+	top: 618px;
+	left: 580px;
+	position: absolute;
+}
+
+#N6-stem-r {
+	width: 10px;
+	height: 40px;
+	background: white;
+	top: 615px;
+	left: 599px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#N6-stem-b {
+	width: 10px;
+	height: 25px;
+	background: white;
+	top: 657px;
+	left: 580px;
+	transform: rotate(-45deg);
+	position: absolute;
+}
+
+#N7-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 600px;
+	left: 632px;
+	position: absolute;
+}
+
+#N7-stem {
+	width: 10px;
+	height: 62px;
+	background: white;
+	top: 625px;
+	left: 664px;
+	position: absolute;
+}
+
+#N7-space {
+	width: 43px;
+	height: 62px;
+	background: white;
+	top: 640px;
+	left: 631px;
+	position: absolute;
+}
+
+#N8-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 600px;
+	left: 717px;
 	position: absolute;
 }
 
