@@ -1071,6 +1071,104 @@ body {
 	position: absolute;
 }
 
+#N8-stem-t {
+	width: 10px;
+	height: 25px;
+	background: white;
+	top: 615px;
+	left: 750px;
+	transform: rotate(-45deg);
+	position: absolute;
+}
+#N8-stem-b {
+	width: 10px;
+	height: 25px;
+	background: white;
+	top: 660px;
+	left: 750px;
+	transform: rotate(-45deg);
+	position: absolute;
+}
+
+#N9-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 600px;
+	left: 802px;
+	position: absolute;
+}
+
+#N9-stem-t {
+	width: 10px;
+	height: 25px;
+	background: white;
+	top: 615px;
+	left: 835px;
+	transform: rotate(-45deg);
+	position: absolute;
+}
+
+#N9-stem-l {
+	width: 10px;
+	height: 40px;
+	background: white;
+	top: 645px;
+	left: 816px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#N9-stem-b {
+	width: 10px;
+	height: 22px;
+	background: white;
+	top: 660px;
+	left: 835px;
+	position: absolute;
+}
+
+#N0-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 600px;
+	left: 887px;
+	position: absolute;
+}
+
+#N0-stem {
+	width: 10px;
+	height: 35px;
+	background: white;
+	top: 632px;
+	left: 920px;
+	transform: rotate(-45deg);
+	position: absolute;
+}
+
+#N0-space-t {
+	width: 0;
+	height: 0;
+	top: 599px;
+	left: 942px;
+	border-top: 21px solid white;
+	border-left: 21px solid transparent;
+	position: absolute;
+}
+
+#N0-space-b {
+	width: 0;
+	height: 0;
+	top: 680px;
+	left: 886px;
+	border-bottom: 21px solid white;
+	border-right: 21px solid transparent;
+	position: absolute;
+}
+
+
+
 #A1-base {
 	width: 75px;
 	height: 100px;
@@ -1103,7 +1201,7 @@ body {
 	height: 100px;
 	background: #FBFCFC;
 	top: 50px;
-	left: 803px;
+	left: 802px;
 	position: absolute;
 }
 
