@@ -1,13 +1,42 @@
-body {
+body
+
+#hover:hover {
+	-webkit-transform: scale(1.8); transition: 0.6s ease;
+}
+{
 	background: white;
 }
 
 .stage1 {
 	width: 1000px;
-	height: 800px;
-	margin: 50px auto;
+	height: 5000px;
+	margin: 0px auto;
 	background: white;
 	position: relative;
+}
+
+.MainContainer {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.ParallaxContainer {
+  display: flex;
+  flex: 1 0 auto;
+  position: relative;
+  height: 100vh;
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+}
+
+.ContentContainer {
+  display: block;
+  position: relative;
+  background-color: white;
+  z-index: 1;
 }
 
 #MEGAm-base {
@@ -18,7 +47,6 @@ body {
 	left: 334px;
 	position: absolute;
 }
-
 #MEGAm-stem-l {
 	width: 10px;
 	height: 32px;
@@ -147,10 +175,9 @@ body {
 
 
 
-
 .stage2 {
 	width: 1000px;
-	height: 800px;
+	height: 630px;
 	margin: 100px auto;
 	background: white;
 	position: relative;
