@@ -1,16 +1,12 @@
 body
-
-#hover:hover {
-	-webkit-transform: scale(1.8); transition: 0.6s ease;
-}
 {
 	background: white;
 }
 
 .stage1 {
 	width: 1000px;
-	height: 5000px;
-	margin: 0px auto;
+	height: 2000px;
+	margin: -10px auto;
 	background: white;
 	position: relative;
 }
@@ -18,7 +14,7 @@ body
 .MainContainer {
   perspective: 1px;
   transform-style: preserve-3d;
-  height: 100vh;
+  height: 1000px;
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -27,13 +23,14 @@ body
   display: flex;
   flex: 1 0 auto;
   position: relative;
-  height: 100vh;
+  height: 900px;
   transform: translateZ(-1px) scale(2);
   z-index: -1;
 }
 
 .ContentContainer {
-  display: block;
+	width: 1000px;
+	height: 2000px;
   position: relative;
   background-color: white;
   z-index: 1;
@@ -177,7 +174,7 @@ body
 
 .stage2 {
 	width: 1000px;
-	height: 630px;
+	height: 500px;
 	margin: 100px auto;
 	background: white;
 	position: relative;
