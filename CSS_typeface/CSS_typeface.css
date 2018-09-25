@@ -1,5 +1,4 @@
 
-
 body
 {
 	background: white;
@@ -7,6 +6,8 @@ body
 
 
 .stage1 {
+
+
 	width: 1000px;
 	height: 2000px;
 	margin: -10px auto;
@@ -37,6 +38,12 @@ body
   position: relative;
   background-color: white;
   z-index: 1;
+}
+
+:active{
+background-color:black;
+  filter: invert(100%);
+
 }
 
 #MEGAm-base {
@@ -1406,5 +1413,15 @@ body
 	top: 635px;
 	left: 155px;
 	transform: rotate(90deg);
+	position: absolute;
+}
+
+#Ept-space {
+	width: 22px;
+	height: 65px;
+	background: white;
+	top: 636px;
+	left: 176px;
+	clip-path: polygon(0% 22px, 100% 0%, 100% 100%, 0% 100%);
 	position: absolute;
 }
