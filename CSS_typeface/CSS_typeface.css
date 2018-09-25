@@ -208,7 +208,7 @@ body
 	height: 25px;
 	background: white;
 	top: 80px;
-	left: 69.5px;
+	left: 69px;
 	transform: rotate(-45deg);
 	position: absolute;
 }
@@ -1352,40 +1352,59 @@ body
 }
 
 #Qmk-space {
-	width: 43px;
-	height: 62px;
+	width: 22px;
+	height: 45px;
 	background: white;
-	top: 640px;
-	left: 631px;
+	top: 655px;
+	left: 90px;
 	position: absolute;
 }
 
 #Qmk-stem-t {
-	width: 0;
-	height: 0;
-	top: 599px;
-	left: 942px;
-	border-top: 21px solid white;
-	border-left: 21px solid transparent;
+	width: 10px;
+	height: 20px;
+	background: white;
+	top: 628px;
+	left: 69px;
+
 	position: absolute;
 }
 
 #Qmk-stem-l {
-	width: 0;
-	height: 0;
-	top: 599px;
-	left: 942px;
-	border-top: 21px solid white;
-	border-left: 21px solid transparent;
+	width: 10px;
+	height: 38px;
+	background: white;
+	top: 624px;
+	left: 50px;
+	transform: rotate(90deg);
 	position: absolute;
 }
 
 #Qmk-stem-b {
-	width: 0;
-	height: 0;
-	top: 599px;
-	left: 942px;
-	border-top: 21px solid white;
-	border-left: 21px solid transparent;
+	width: 10px;
+	height: 79px;
+	background: white;
+	top: 635px;
+	left: 70px;
+	transform: rotate(90deg);
+	position: absolute;
+}
+
+#Ept-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 600px;
+	left: 122px;
+	position: absolute;
+}
+
+#Ept-stem {
+	width: 10px;
+	height: 79px;
+	background: white;
+	top: 635px;
+	left: 155px;
+	transform: rotate(90deg);
 	position: absolute;
 }
