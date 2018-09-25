@@ -1,7 +1,10 @@
+
+
 body
 {
 	background: white;
 }
+
 
 .stage1 {
 	width: 1000px;
@@ -29,7 +32,7 @@ body
 }
 
 .ContentContainer {
-	width: 1000px;
+	width: 2000px;
 	height: 2000px;
   position: relative;
   background-color: white;
@@ -173,12 +176,14 @@ body
 
 
 .stage2 {
-	width: 1000px;
+	width: 2000px;
 	height: 500px;
 	margin: 100px auto;
 	background: white;
 	position: relative;
 }
+
+
 
 #A-base {
 	width: 75px;
@@ -1337,49 +1342,50 @@ body
 	position: absolute;
 }
 
-
-
-#A1-base {
+#Qmk-base {
 	width: 75px;
 	height: 100px;
-	background: #FBFCFC;
-	top: 50px;
-	left: 547px;
+	background: black;
+	top: 600px;
+	left: 37px;
 	position: absolute;
 }
 
-#A2-base {
-	width: 75px;
-	height: 100px;
-	background: #FBFCFC;
-	top: 50px;
-	left: 632px;
+#Qmk-space {
+	width: 43px;
+	height: 62px;
+	background: white;
+	top: 640px;
+	left: 631px;
 	position: absolute;
 }
 
-#A3-base {
-	width: 75px;
-	height: 100px;
-	background: #FBFCFC;
-	top: 50px;
-	left: 717px;
+#Qmk-stem-t {
+	width: 0;
+	height: 0;
+	top: 599px;
+	left: 942px;
+	border-top: 21px solid white;
+	border-left: 21px solid transparent;
 	position: absolute;
 }
 
-#A4-base {
-	width: 75px;
-	height: 100px;
-	background: #FBFCFC;
-	top: 50px;
-	left: 802px;
+#Qmk-stem-l {
+	width: 0;
+	height: 0;
+	top: 599px;
+	left: 942px;
+	border-top: 21px solid white;
+	border-left: 21px solid transparent;
 	position: absolute;
 }
 
-#A5-base {
-	width: 75px;
-	height: 100px;
-	background: #FBFCFC;
-	top: 50px;
-	left: 887px;
+#Qmk-stem-b {
+	width: 0;
+	height: 0;
+	top: 599px;
+	left: 942px;
+	border-top: 21px solid white;
+	border-left: 21px solid transparent;
 	position: absolute;
 }
