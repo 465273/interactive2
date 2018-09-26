@@ -40,11 +40,7 @@ body
   z-index: 1;
 }
 
-:active{
-background-color:black;
-  filter: invert(100%);
 
-}
 
 #MEGAm-base {
 	width: 75px;
@@ -184,13 +180,17 @@ background-color:black;
 
 .stage2 {
 	width: 2000px;
-	height: 500px;
+	height: 800px;
 	margin: 100px auto;
 	background: white;
 	position: relative;
 }
 
+:active{
+background-color:black;
+  filter: invert(100%);
 
+}
 
 #A-base {
 	width: 75px;
