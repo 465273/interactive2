@@ -41,7 +41,7 @@ body
 }
 
 .Content {
-	margin: -20 auto;
+	margin: 0 auto;
 	width:1000px;
 	position:relative;
 	transform: scale(1.5);
