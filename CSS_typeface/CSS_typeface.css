@@ -225,6 +225,42 @@ background-color:black;
 	position: absolute;
 }
 
+#A-border-t {
+	width: 520px;
+	height: 10px;
+	background: white;
+	top: 40px;
+	left: 27px;
+	position: absolute;
+}
+
+#A-border-l {
+	width: 10px;
+	height: 120px;
+	background: white;
+	top: 40px;
+	left: 27px;
+	position: absolute;
+}
+
+#A-border-r {
+	width: 10px;
+	height: 230px;
+	background: white;
+	top: 40px;
+	left: 112px;
+	position: absolute;
+}
+
+#A-border-b {
+	width: 605px;
+	height: 10px;
+	background: white;
+	top: 150px;
+	left: 27px;
+	position: absolute;
+}
+
 #B-base {
 	width: 75px;
 	height: 100px;
@@ -264,6 +300,15 @@ background-color:black;
 	position: absolute;
 }
 
+#B-border-r {
+	width: 10px;
+	height: 340px;
+	background: white;
+	top: 40px;
+	left: 197px;
+	position: absolute;
+}
+
 #C-base {
 	width: 75px;
 	height: 100px;
@@ -289,6 +334,15 @@ background-color:black;
 	top: 82px;
 	left: 260px;
 	transform: rotate(90deg);
+	position: absolute;
+}
+
+#C-border-r {
+	width: 10px;
+	height: 450px;
+	background: white;
+	top: 40px;
+	left: 282px;
 	position: absolute;
 }
 
@@ -331,6 +385,15 @@ background-color:black;
 	position: absolute;
 }
 
+#D-border-r {
+	width: 10px;
+	height: 560px;
+	background: white;
+	top: 40px;
+	left: 367px;
+	position: absolute;
+}
+
 #E-base {
 	width: 75px;
 	height: 100px;
@@ -360,6 +423,15 @@ background-color:black;
 	position: absolute;
 }
 
+#E-border-r {
+	width: 10px;
+	height: 670px;
+	background: white;
+	top: 40px;
+	left: 452px;
+	position: absolute;
+}
+
 #F-base {
 	width: 75px;
 	height: 100px;
@@ -385,6 +457,15 @@ background-color:black;
 	background: white;
 	top: 117px;
 	left: 512px;
+	position: absolute;
+}
+
+#F-border-r {
+	width: 10px;
+	height: 670px;
+	background: white;
+	top: 40px;
+	left: 537px;
 	position: absolute;
 }
 
@@ -434,6 +515,15 @@ background-color:black;
 	background: white;
 	top: 224px;
 	left: 155px;
+	position: absolute;
+}
+
+#G-border-b {
+	width: 520px;
+	height: 10px;
+	background: white;
+	top: 260px;
+	left: 112px;
 	position: absolute;
 }
 
@@ -573,6 +663,15 @@ background-color:black;
 	background: white;
 	top: 158px;
 	left: 597px;
+	position: absolute;
+}
+
+#L-border-r {
+	width: 10px;
+	height: 670px;
+	background: white;
+	top: 150px;
+	left: 622px;
 	position: absolute;
 }
 
