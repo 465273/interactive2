@@ -1,5 +1,7 @@
 body
 {
+	padding: 0;
+	margin:0;
 	background: white;
 }
 
@@ -10,7 +12,7 @@ body
   perspective: 1px;
   transform-style: preserve-3d;
 	clip-path: inset(" + (window.scrollY + 200) + "px 0 " + (document.body.clientHeight - window.scrollY - window.innerHeight + 200) + "px 0);
-	background-color: black;
+	background-color: white;
 
 	/* height: 1000px; */
   /* overflow-x: hidden; */
@@ -519,7 +521,7 @@ background-color:black;
 }
 
 #G-border-b {
-	width: 520px;
+	width: 605px;
 	height: 10px;
 	background: white;
 	top: 260px;
@@ -668,7 +670,7 @@ background-color:black;
 
 #L-border-r {
 	width: 10px;
-	height: 670px;
+	height: 560px;
 	background: white;
 	top: 150px;
 	left: 622px;
@@ -699,6 +701,15 @@ background-color:black;
 	background: white;
 	top: 340px;
 	left: 254px;
+	position: absolute;
+}
+
+#M-border-b {
+	width: 605px;
+	height: 10px;
+	background: white;
+	top: 370px;
+	left: 197px;
 	position: absolute;
 }
 
@@ -841,6 +852,15 @@ background-color:black;
 	position: absolute;
 }
 
+#R-border-r {
+	width: 10px;
+	height: 450px;
+	background: white;
+	top: 260px;
+	left: 707px;
+	position: absolute;
+}
+
 #S-base {
 	width: 75px;
 	height: 100px;
@@ -867,6 +887,15 @@ background-color:black;
 	top: 435px;
 	left: 299px;
 	transform: rotate(90deg);
+	position: absolute;
+}
+
+#S-border-b {
+	width: 605px;
+	height: 10px;
+	background: white;
+	top: 480px;
+	left: 282px;
 	position: absolute;
 }
 
@@ -1056,6 +1085,15 @@ background-color:black;
 	position: absolute;
 }
 
+#X-border-r {
+	width: 10px;
+	height: 340px;
+	background: white;
+	top: 370px;
+	left: 792px;
+	position: absolute;
+}
+
 #Y-base {
 	width: 75px;
 	height: 100px;
@@ -1091,6 +1129,15 @@ background-color:black;
 	left: 433px;
 	background: white;
 	clip-path: polygon(0% 20px, 100% 0%, 100% 100%, 0% 100%);
+	position: absolute;
+}
+
+#Y-border-b {
+	width: 595px;
+	height: 10px;
+	background: white;
+	top: 590px;
+	left: 377px;
 	position: absolute;
 }
 
@@ -1245,6 +1292,15 @@ background-color:black;
 	position: absolute;
 }
 
+#N4-border-r {
+	width: 10px;
+	height: 230px;
+	background: white;
+	top: 480px;
+	left: 877px;
+	position: absolute;
+}
+
 #N5-base {
 	width: 75px;
 	height: 100px;
@@ -1280,6 +1336,15 @@ background-color:black;
 	top: 615px;
 	left: 520px;
 	transform: rotate(90deg);
+	position: absolute;
+}
+
+#N5-border-b {
+	width: 510px;
+	height: 10px;
+	background: white;
+	top: 700px;
+	left: 462px;
 	position: absolute;
 }
 
@@ -1450,6 +1515,15 @@ background-color:black;
 	left: 886px;
 	border-bottom: 21px solid white;
 	border-right: 21px solid transparent;
+	position: absolute;
+}
+
+#N0-border-r {
+	width: 10px;
+	height: 230px;
+	background: white;
+	top: 480px;
+	left: 877px;
 	position: absolute;
 }
 
