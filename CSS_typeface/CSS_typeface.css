@@ -1,26 +1,20 @@
-
 body
 {
 	background: white;
 }
 
 
-.stage1 {
-
-
-	width: 1000px;
-	height: 2000px;
-	margin: -10px auto;
-	background: white;
-	position: relative;
-}
+.stage1 {/*width: 1000px;/* height: 2000px; */margin: 30px auto;background: white;position: relative;}
 
 .MainContainer {
   perspective: 1px;
   transform-style: preserve-3d;
-  height: 1000px;
-  overflow-x: hidden;
-  overflow-y: scroll;
+	clip-path: inset(" + (window.scrollY + 200) + "px 0 " + (document.body.clientHeight - window.scrollY - window.innerHeight + 200) + "px 0);
+	background-color: black;
+
+	/* height: 1000px; */
+  /* overflow-x: hidden; */
+  /* overflow-y: scroll; */
 }
 
 .ParallaxContainer {
@@ -28,19 +22,29 @@ body
   flex: 1 0 auto;
   position: relative;
   height: 900px;
-  transform: translateZ(-1px) scale(2);
   z-index: -1;
+  perspective: 100px;
+}
+
+.center {
+	margin: 0 auto;
+	width:1000px;
+	position:relative;
 }
 
 .ContentContainer {
-	width: 2000px;
+	width: 100vw;
 	height: 2000px;
   position: relative;
   background-color: white;
   z-index: 1;
 }
-
-
+.Content {
+	margin: -20 auto;
+	width:1000px;
+	position:relative;
+	transform: scale(1.5);
+}
 
 #MEGAm-base {
 	width: 75px;
@@ -179,7 +183,7 @@ body
 
 
 .stage2 {
-	width: 2000px;
+	width: 100vw;
 	height: 800px;
 	margin: 100px auto;
 	background: white;
@@ -188,7 +192,7 @@ body
 
 :active{
 background-color:black;
-  filter: invert(100%);
+Â Â filter: invert(100%);
 
 }
 
