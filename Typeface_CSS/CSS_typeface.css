@@ -848,13 +848,13 @@ background-color:black;
 	position: absolute;
 }
 
-#R-stem-c {
-	width: 10px;
-	height: 22px;
-	background: white;
-	top: 310px;
-	left: 695px;
-	transform: rotate(90deg);
+#R-space-c {
+	width: 0;
+	height: 0;
+	border-top: 20px solid white;
+	border-left: 20px solid transparent;
+	top: 320px;
+	left: 687px;
 	position: absolute;
 }
 
@@ -1156,23 +1156,23 @@ background-color:black;
 	position: absolute;
 }
 
-#Z-stem-l {
-	width: 10px;
-	height: 27px;
-	background: white;
-	top: 510px;
-	left: 469px;
-	transform: rotate(90deg);
+#Z-space-l {
+	width: 0;
+	height: 0;
+	border-top: 20px solid white;
+	border-right: 20px solid transparent;
+	top: 520px;
+	left: 461px;
 	position: absolute;
 }
 
-#Z-stem-r {
-	width: 10px;
-	height: 27px;
-	background: white;
+#Z-space-r {
+	width: 0;
+	height: 0;
+	border-bottom: 20px solid white;
+	border-left: 20px solid transparent;
 	top: 545px;
-	left: 523px;
-	transform: rotate(90deg);
+	left: 518px;
 	position: absolute;
 }
 
@@ -1320,7 +1320,7 @@ background-color:black;
 	width: 10px;
 	height: 40px;
 	background: white;
-	top: 629px;
+	top: 634px;
 	left: 476px;
 	transform: rotate(90deg);
 	position: absolute;
@@ -1330,7 +1330,7 @@ background-color:black;
 	width: 10px;
 	height: 25px;
 	background: white;
-	top: 644px;
+	top: 649px;
 	left: 495px;
 	position: absolute;
 }
