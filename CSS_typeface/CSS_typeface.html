@@ -4,19 +4,27 @@
 <meta charset="utf-8" />
 <link rel="stylesheet" href="CSS_typeface.css" type="text/css" />
 <head>
-
 <script src="CSS_typeface.js" defer></script>
+<style media="screen">
+	.abslt{
+		position: absolute;
+    top: 0;
+    filter: invert(1);
+    z-index: 100;
 
+	}
+	.fixed{
+
+		position: fixed;
+    top: 200px;
+		width: 100px;
+	}
+</style>
 </head>
 <body>
 
     <div class="stage1">
-		<div class="MainContainer" style="
-    position: absolute;
-    top: 0;
-    filter: invert(1);
-    z-index: 100;
-		" id="containerBody">
+		<div class="MainContainer abslt">
 
 				<div class="ParallaxContainer">
 					<div class="ContentContainer">
@@ -303,6 +311,7 @@
 			<div id="N0-stem"></div>
 			<div id="N0-space-t"></div>
 			<div id="N0-space-b"></div>
+			<div id="N0-border-r"></div>
 		</div>
 
 		<div class="Qmk">
@@ -319,19 +328,25 @@
 				<div id="Qmk-stem-t"></div>
 				<div id="Qmk-stem-l"></div>
 				<div id="Qmk-stem-b"></div>
+				<div id="Qmk-border-t"></div>
+				<div id="Qmk-border-b"></div>
+				<div id="Qmk-border-l"></div>
+				<div id="Qmk-border-r"></div>
 		  </div>
 
 			<div class="Ept">
 				<div id="Ept-base"></div>
 				<div id="Ept-stem"></div>
 				<div id="Ept-space"></div>
+				<div id="Ept-border-r"></div>
 		  </div>
 	  </div>
 </div>
 
 
 
-</div><div class="MainContainer" style="
+</div>
+<div class="MainContainer" style="
     position: absolute;
 ">
 				<div class="ParallaxContainer" style="filter: invert();">
@@ -370,8 +385,10 @@
 		</div>
 		</div>
 
-<div class="stage2">
+
+<div class="stage3">
 	<div class="center">
+
 		<div class="A">
 			<div id="A-base"></div>
 			<div id="A-stem-b"></div>
@@ -625,10 +642,250 @@
 				<div id="Ept-stem"></div>
 				<div id="Ept-space"></div>
 		  </div>
+
+			<div class="L2">
+				<div id="L-base"></div>
+				<div id="L-space"></div>
+			</div>
+
+			<div class="O2">
+				<div id="O-base"></div>
+				<div id="O-stem"></div>
+			</div>
+
+			<div class="R2">
+				<div id="R-base"></div>
+				<div id="R-stem-t"></div>
+				<div id="R-stem-c"></div>
+				<div id="R-stem-b"></div>
+			</div>
+
+			<div class="E2">
+				<div id="E-base"></div>
+				<div id="E-stem-t"></div>
+				<div id="E-stem-b"></div>
+			</div>
+
+			<div class="M2">
+				<div id="M-base"></div>
+				<div id="M-stem-l"></div>
+				<div id="M-stem-r"></div>
+			</div>
+
+			<div class="I2">
+				<div id="I-base"></div>
+				<div id="I-stem-l"></div>
+				<div id="I-stem-r"></div>
+			</div>
+
+			<div class="P2">
+				<div id="P-base"></div>
+				<div id="P-stem"></div>
+				<div id="P-space"></div>
+			</div>
+
+			<div class="S2">
+				<div id="S-base"></div>
+				<div id="S-stem-t"></div>
+				<div id="S-stem-b"></div>
+			</div>
+
+			<div class="U2">
+				<div id="U-base"></div>
+				<div id="U-stem"></div>
+				<div id="U-space-l"></div>
+				<div id="U-space-r"></div>
+			</div>
+
+			<div class="M2-2">
+				<div id="M-base"></div>
+				<div id="M-stem-l"></div>
+				<div id="M-stem-r"></div>
+			</div>
+
+
+			<div class="L3">
+				<div id="L-base"></div>
+				<div id="L-space"></div>
+			</div>
+
+			<div class="O3">
+				<div id="O-base"></div>
+				<div id="O-stem"></div>
+			</div>
+
+			<div class="R3">
+				<div id="R-base"></div>
+				<div id="R-stem-t"></div>
+				<div id="R-stem-c"></div>
+				<div id="R-stem-b"></div>
+			</div>
+
+			<div class="E3">
+				<div id="E-base"></div>
+				<div id="E-stem-t"></div>
+				<div id="E-stem-b"></div>
+			</div>
+
+			<div class="M3">
+				<div id="M-base"></div>
+				<div id="M-stem-l"></div>
+				<div id="M-stem-r"></div>
+			</div>
+
+			<div class="I3">
+				<div id="I-base"></div>
+				<div id="I-stem-l"></div>
+				<div id="I-stem-r"></div>
+			</div>
+
+			<div class="P3">
+				<div id="P-base"></div>
+				<div id="P-stem"></div>
+				<div id="P-space"></div>
+			</div>
+
+			<div class="S3">
+				<div id="S-base"></div>
+				<div id="S-stem-t"></div>
+				<div id="S-stem-b"></div>
+			</div>
+
+			<div class="U3">
+				<div id="U-base"></div>
+				<div id="U-stem"></div>
+				<div id="U-space-l"></div>
+				<div id="U-space-r"></div>
+			</div>
+
+			<div class="M3-2">
+				<div id="M-base"></div>
+				<div id="M-stem-l"></div>
+				<div id="M-stem-r"></div>
+			</div>
+
+			<div id="L2-border-t"></div>
+			<div id="L2-border-l"></div>
+			<div id="L2-border-r"></div>
+			<div id="L2-border-b"></div>
+			<div id="O2-border-r"></div>
+			<div id="R2-border-r"></div>
+			<div id="E2-border-r"></div>
+			<div id="M2-border-r"></div>
+			<div id="I2-border-r"></div>
+			<div id="P2-border-r"></div>
+			<div id="S2-border-r"></div>
+			<div id="U2-border-r"></div>
+			<div id="M2-2-border-r"></div>
+
+			<div class="L4">
+				<div id="L-space"></div>
+			</div>
+
+			<div class="O4">
+				<div id="O-stem"></div>
+			</div>
+
+			<div class="R4">
+				<div id="R-stem-t"></div>
+				<div id="R-stem-c"></div>
+				<div id="R-stem-b"></div>
+			</div>
+
+			<div class="E4">
+				<div id="E-stem-t"></div>
+				<div id="E-stem-b"></div>
+			</div>
+
+			<div class="M4">
+				<div id="M-stem-l"></div>
+				<div id="M-stem-r"></div>
+			</div>
+
+			<div class="I4">
+				<div id="I-stem-l"></div>
+				<div id="I-stem-r"></div>
+			</div>
+
+			<div class="P4">
+				<div id="P-stem"></div>
+				<div id="P-space"></div>
+			</div>
+
+			<div class="S4">
+				<div id="S-stem-t"></div>
+				<div id="S-stem-b"></div>
+			</div>
+
+			<div class="U4">
+				<div id="U-stem"></div>
+				<div id="U-space-l"></div>
+				<div id="U-space-r"></div>
+			</div>
+
+			<div class="M4-2">
+				<div id="M-stem-l"></div>
+				<div id="M-stem-r"></div>
+			</div>
+
+
+			<div id="BOX5"></div>
+
+			<div class="L5">
+				<div id="L-space"></div>
+			</div>
+
+			<div class="O5">
+				<div id="O-stem"></div>
+			</div>
+
+			<div class="R5">
+				<div id="R-stem-t"></div>
+				<div id="R-stem-c"></div>
+				<div id="R-stem-b"></div>
+			</div>
+
+			<div class="E5">
+				<div id="E-stem-t"></div>
+				<div id="E-stem-b"></div>
+			</div>
+
+			<div class="M5">
+				<div id="M-stem-l"></div>
+				<div id="M-stem-r"></div>
+			</div>
+
+			<div class="I5">
+				<div id="I-stem-l"></div>
+				<div id="I-stem-r"></div>
+			</div>
+
+			<div class="P5">
+				<div id="P-stem"></div>
+				<div id="P-space"></div>
+			</div>
+
+			<div class="S5">
+				<div id="S-stem-t"></div>
+				<div id="S-stem-b"></div>
+			</div>
+
+			<div class="U5">
+				<div id="U-stem"></div>
+				<div id="U-space-l"></div>
+				<div id="U-space-r"></div>
+			</div>
+
+			<div class="M5-2">
+				<div id="M-stem-l"></div>
+				<div id="M-stem-r"></div>
+			</div>
+
+
+
 	  </div>
 
 </div>
-
 
 </div></div></body>
 

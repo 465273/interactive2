@@ -6,7 +6,12 @@ body
 }
 
 
-.stage1 {/*width: 1000px;/* height: 2000px; */margin: 30px auto;background: white;position: relative;}
+.stage1 {
+	/*width: 1000px;/* height: 2000px; */
+	margin: 30px auto;
+	background: white;
+	position: relative;
+}
 
 .MainContainer {
   perspective: 1px;
@@ -23,7 +28,7 @@ body
   display: flex;
   flex: 1 0 auto;
   position: relative;
-  height: 900px;
+  height: 800px;
   z-index: -1;
   perspective: 100px;
 }
@@ -36,7 +41,7 @@ body
 
 .ContentContainer {
 	width: 100vw;
-	height: 2000px;
+	height: 2500px;
   position: relative;
   background-color: white;
   z-index: 1;
@@ -47,6 +52,7 @@ body
 	width:1000px;
 	position:relative;
 	transform: scale(1.5);
+	margin: -120px;
 }
 
 #MEGAm-base {
@@ -1520,10 +1526,10 @@ background-color:black;
 
 #N0-border-r {
 	width: 10px;
-	height: 230px;
+	height: 120px;
 	background: white;
-	top: 480px;
-	left: 877px;
+	top: 590px;
+	left: 962px;
 	position: absolute;
 }
 
@@ -1575,6 +1581,43 @@ background-color:black;
 	position: absolute;
 }
 
+#Qmk-border-t {
+	width: 180px;
+	height: 10px;
+	background: white;
+	top: 590px;
+	left: 27px;
+	position: absolute;
+}
+
+#Qmk-border-b {
+	width: 180px;
+	height: 10px;
+	background: white;
+	top: 700px;
+	left: 27px;
+	position: absolute;
+}
+
+#Qmk-border-l {
+	width: 10px;
+	height: 120px;
+	background: white;
+	top: 590px;
+	left: 27px;
+	position: absolute;
+}
+
+#Qmk-border-r {
+	width: 10px;
+	height: 120px;
+	background: white;
+	top: 590px;
+	left: 112px;
+	position: absolute;
+}
+
+
 #Ept-base {
 	width: 75px;
 	height: 100px;
@@ -1601,5 +1644,459 @@ background-color:black;
 	top: 631px;
 	left: 176px;
 	clip-path: polygon(0% 22px, 100% 0%, 100% 100%, 0% 100%);
+	position: absolute;
+}
+
+#Ept-border-r {
+	width: 10px;
+	height: 120px;
+	background: white;
+	top: 590px;
+	left: 197px;
+	position: absolute;
+}
+
+.L2 {
+	top: 800px;
+	left: -500px;
+	position: absolute;
+}
+
+.O2 {
+	top: 690px;
+	left: -245px;
+	position: absolute;
+}
+
+.R2 {
+	top: 690px;
+	left: -415px;
+	position: absolute;
+}
+
+.E2 {
+	top: 910px;
+	left: -75px;
+	position: absolute;
+}
+
+.M2 {
+	top: 690px;
+	left: 180px;
+	position: absolute;
+}
+
+.I2 {
+	top: 800px;
+	left: 180px;
+	position: absolute;
+}
+
+.P2 {
+	top: 690px;
+	left: 95px;
+	position: absolute;
+}
+
+.S2 {
+	top: 580px;
+	left: 350px;
+	position: absolute;
+}
+
+.U2 {
+	top: 580px;
+	left: 265px;
+	position: absolute;
+}
+
+.M2-2 {
+	top: 690px;
+	left: 605px;
+	position: absolute;
+}
+
+
+.L3 {
+	top: 920px;
+	left: -500px;
+	position: absolute;
+	filter: invert(1);
+}
+
+.O3 {
+	top: 810px;
+	left: -245px;
+	position: absolute;
+	filter: invert(1);
+}
+
+.R3 {
+	top: 810px;
+	left: -415px;
+	position: absolute;
+	filter: invert(1);
+}
+
+.E3 {
+	top: 1030px;
+	left: -75px;
+	position: absolute;
+	filter: invert(1);
+}
+
+.M3 {
+	top: 810px;
+	left: 180px;
+	position: absolute;
+	filter: invert(1);
+}
+
+.I3 {
+	top: 920px;
+	left: 180px;
+	position: absolute;
+	filter: invert(1);
+}
+
+.P3 {
+	top: 810px;
+	left: 95px;
+	position: absolute;
+	filter: invert(1);
+}
+
+.S3 {
+	top: 700px;
+	left: 350px;
+	position: absolute;
+	filter: invert(1);
+}
+
+.U3 {
+	top: 700px;
+	left: 265px;
+	position: absolute;
+	filter: invert(1);
+}
+
+.M3-2 {
+	top: 810px;
+	left: 605px;
+	position: absolute;
+	filter: invert(1);
+}
+
+
+#L2-border-t {
+	width: 855px;
+	height: 10px;
+	background: white;
+	top: 1070px;
+	left: 37px;
+	position: absolute;
+	filter: invert(1);
+}
+
+#L2-border-b {
+	width: 855px;
+	height: 10px;
+	background: white;
+	top: 1180px;
+	left: 37px;
+	position: absolute;
+	filter: invert(1);
+}
+
+#L2-border-l {
+	width: 10px;
+	height: 120px;
+	background: white;
+	top: 1070px;
+	left: 37px;
+	position: absolute;
+	filter: invert(1);
+}
+
+#L2-border-r {
+	width: 10px;
+	height: 120px;
+	background: white;
+	top: 1070px;
+	left: 122px;
+	position: absolute;
+	filter: invert(1);
+}
+
+#O2-border-r {
+	width: 10px;
+	height: 120px;
+	background: white;
+	top: 1070px;
+	left: 207px;
+	position: absolute;
+	filter: invert(1);
+}
+
+#R2-border-r {
+	width: 10px;
+	height: 120px;
+	background: white;
+	top: 1070px;
+	left: 292px;
+	position: absolute;
+	filter: invert(1);
+}
+
+#E2-border-r {
+	width: 10px;
+	height: 120px;
+	background: white;
+	top: 1070px;
+	left: 377px;
+	position: absolute;
+	filter: invert(1);
+}
+
+#M2-border-r {
+	width: 10px;
+	height: 120px;
+	background: white;
+	top: 1070px;
+	left: 462px;
+	position: absolute;
+	filter: invert(1);
+}
+
+#I2-border-r {
+	width: 10px;
+	height: 120px;
+	background: white;
+	top: 1070px;
+	left: 547px;
+	position: absolute;
+	filter: invert(1);
+}
+
+#P2-border-r {
+	width: 10px;
+	height: 120px;
+	background: white;
+	top: 1070px;
+	left: 632px;
+	position: absolute;
+	filter: invert(1);
+}
+
+#S2-border-r {
+	width: 10px;
+	height: 120px;
+	background: white;
+	top: 1070px;
+	left: 717px;
+	position: absolute;
+	filter: invert(1);
+}
+
+#U2-border-r {
+	width: 10px;
+	height: 120px;
+	background: white;
+	top: 1070px;
+	left: 802px;
+	position: absolute;
+	filter: invert(1);
+}
+
+#M2-2-border-r {
+	width: 10px;
+	height: 120px;
+	background: white;
+	top: 1070px;
+	left: 887px;
+	position: absolute;
+	filter: invert(1);
+}
+
+
+.L4 {
+	top: 1040px;
+	left: -500px;
+	position: absolute;
+	filter: invert(1);
+}
+
+.O4 {
+	top: 940px;
+	left: -245px;
+	position: absolute;
+	filter: invert(1);
+}
+
+.R4 {
+	top: 940px;
+	left: -415px;
+	position: absolute;
+	filter: invert(1);
+}
+
+.E4 {
+	top: 1160px;
+	left: -75px;
+	position: absolute;
+	filter: invert(1);
+}
+
+.M4 {
+	top: 940px;
+	left: 180px;
+	position: absolute;
+	filter: invert(1);
+}
+
+.I4 {
+	top: 1050px;
+	left: 180px;
+	position: absolute;
+	filter: invert(1);
+}
+
+.P4 {
+	top: 940px;
+	left: 95px;
+	position: absolute;
+	filter: invert(1);
+}
+
+.S4 {
+	top: 830px;
+	left: 350px;
+	position: absolute;
+	filter: invert(1);
+}
+
+.U4 {
+	top: 830px;
+	left: 265px;
+	position: absolute;
+	filter: invert(1);
+}
+
+.M4-2 {
+	top: 940px;
+	left: 605px;
+	position: absolute;
+	filter: invert(1);
+}
+
+.L5 {
+	top: 1170px;
+	left: -500px;
+	position: absolute;
+}
+
+.O5 {
+	top: 1070px;
+	left: -245px;
+	position: absolute;
+}
+
+.R5 {
+	top: 1070px;
+	left: -415px;
+	position: absolute;
+}
+
+.E5 {
+	top: 1290px;
+	left: -75px;
+	position: absolute;
+}
+
+.M5 {
+	top: 1070px;
+	left: 180px;
+	position: absolute;
+}
+
+.I5 {
+	top: 1180px;
+	left: 180px;
+	position: absolute;
+}
+
+.P5 {
+	top: 1070px;
+	left: 95px;
+	position: absolute;
+}
+
+.S5 {
+	top: 960px;
+	left: 350px;
+	position: absolute;
+}
+
+.U5 {
+	top: 960px;
+	left: 265px;
+	position: absolute;
+}
+
+.M5-2 {
+	top: 1070px;
+	left: 605px;
+	position: absolute;
+}
+
+#BOX5 {
+	width: 860px;
+	height: 113px;
+	background: black;
+	top: 1328px;
+	left: 37px;
+	position: absolute;
+}
+
+
+.stage3 {
+	width: 100vw;
+	height: 800px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+:active{
+background-color:black;
+Â Â filter: invert(100%);
+
+}
+
+#A-base {
+	width: 75px;
+	height: 100px;
+	background: black;
+	top: 50px;
+	left: 37px;
+	position: absolute;
+}
+
+#A-stem-b {
+	width: 10px;
+	height: 27px;
+	background: white;
+	top: 125px;
+	left: 69.5px;
+	position: absolute;
+}
+
+#A-stem-c {
+	width: 10px;
+	height: 25px;
+	background: white;
+	top: 80px;
+	left: 69px;
+	transform: rotate(-45deg);
 	position: absolute;
 }
