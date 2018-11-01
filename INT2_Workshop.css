@@ -1,0 +1,91 @@
+* {
+	margin: 10px;
+	padding: 30px;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 10px;
+	background: #0088E1;
+
+}
+
+
+
+/* items */
+
+.item {
+	height: 150px;
+	width: 150px;
+	color: white;
+	margin: 20px;
+	padding: 20px;
+  border-radius: 10%;
+	box-sizing: border-box;
+	float: left;
+	transition: all 500ms ease;
+	cursor: pointer;
+}
+
+#button-1{
+	background:#0088E1;
+}
+
+#button-1:hover{
+	transform: rotate(3099900deg);
+  transition: 2800s;
+}
+
+#button-2{
+	background:#0088E1;
+}
+
+#button-2:hover{
+	transform: rotate(78000000deg);
+  transition: 3000s;
+}
+
+#button-3{
+	background:#0088E1;
+}
+
+#button-3:hover{
+	transform: rotate(48000000deg);
+  transition: 2800s;
+}
+
+#button-4{
+	background:#0088E1;
+}
+
+#button-4:hover{
+	transform: rotate(36000000deg);
+  transition: 2800s;
+}
+
+#button-5{
+	background:#0088E1;
+}
+
+#button-5:hover{
+	transform: rotate(29000000deg);
+  transition: 2800s;
+}
+
+#button-6{
+	background:#0088E1;
+}
+
+#button-6:hover{
+	transform: rotate(24000000deg);
+  transition: 2800s;
+}
+
+#Text{
+		position: relative;
+		top: 100px;
+		left: 170px;
+		right: 0;
+		bottom: 0px;
+	}
