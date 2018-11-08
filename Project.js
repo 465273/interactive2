@@ -1,17 +1,21 @@
-window.addEventListener( 'load', function() {
-  var box = document.getElementById('box'),
-      docHeight = document.documentElement.offsetHeight;
+function setup() {
+  createCanvas(1300, 700);
+}
 
-  window.addEventListener( 'scroll', function() {
-        // normalize scroll position as percentage
-    var scrolled = window.scrollY / ( docHeight - window.innerHeight ),
-        transformValue = 'scale('+scrolled+')';
+var x = []; // new empty array
+var y = []; // new empty array
 
-    box.style.WebkitTransform = transformValue;
-    box.style.MozTransform = transformValue;
-    box.style.OTransform = transformValue;
-    box.style.transform = transformValue;
+function draw() {
+  background(255);
+  noFill();
 
-  }, false);
+  x.push(mouseX); // equivalent to append(x, mouseX)
+  y.push(mouseY); // equivalent to append(y, mouseY)
 
-}, false);
+  for (var i = 0; i < x.length; i = i + 10) {
+    ellipse(x[i], y[i], 1 + (x.length - i));
+  }
+
+  x = x.slice(-100); // keep the last 50 x values
+  y = y.slice(-100); // keep the last 50 y values
+}
