@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(1300, 700);
+  createCanvas(1400, 700);
 }
 
 var x = []; // new empty array
@@ -18,4 +18,9 @@ function draw() {
 
   x = x.slice(-100); // keep the last 50 x values
   y = y.slice(-100); // keep the last 50 y values
+
+
+for (var a = 10; a < width-10; a = a + 100) {
+  ellipse(a, height/1, mouseX, mouseY);
+}
 }

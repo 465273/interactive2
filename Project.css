@@ -1,1 +1,98 @@
+#circle1 {
+  width: 450px;
+  height: 450px;
+  background-color: noFill;
+  border-radius: 50%;
+  border:1px solid black;
+  top: 130px;
+	left: 150px;
+	position: absolute;
+}
 
+#circle2 {
+  width: 400px;
+  height: 400px;
+  background-color: noFill;
+  border-radius: 50%;
+  border:1px solid black;
+  top: 155px;
+	left: 175px;
+	position: absolute;
+}
+
+#circle3 {
+  width: 350px;
+  height: 350px;
+  background-color: noFill;
+  border-radius: 50%;
+  border:1px solid black;
+  top: 180px;
+	left: 200px;
+	position: absolute;
+}
+
+#circle4 {
+  width: 300px;
+  height: 300px;
+  background-color: noFill;
+  border-radius: 50%;
+  border:1px solid black;
+  top: 205px;
+	left: 225px;
+	position: absolute;
+}
+
+#circle5 {
+  width: 250px;
+  height: 250px;
+  background-color: noFill;
+  border-radius: 50%;
+  border:1px solid black;
+  top: 230px;
+	left: 250px;
+	position: absolute;
+}
+
+#circle6 {
+  width: 200px;
+  height: 200px;
+  background-color: noFill;
+  border-radius: 50%;
+  border:1px solid black;
+  top: 255px;
+	left: 275px;
+	position: absolute;
+}
+
+#circle7 {
+  width: 150px;
+  height: 150px;
+  background-color: noFill;
+  border-radius: 50%;
+  border:1px solid black;
+  top: 280px;
+	left: 300px;
+	position: absolute;
+}
+
+#circle8 {
+  width: 100px;
+  height: 100px;
+  background-color: noFill;
+  border-radius: 50%;
+  border:1px solid black;
+  top: 305px;
+	left: 325px;
+	position: absolute;
+}
+
+#circle9 {
+  width: 50px;
+  height: 50px;
+  background-color: noFill;
+  border-radius: 50%;
+  border:1px solid black;
+  top: 330px;
+	left: 350px;
+	position: absolute;
+}
