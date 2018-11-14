@@ -4,9 +4,10 @@ var secondsRadius;
 var minutesRadius;
 var hoursRadius;
 var clockDiameter;
+let t = 0; // time variable
 
 function setup() {
-  createCanvas(1400, 690);
+  createCanvas(1420, 685);
   stroke(255);
   rectMode(CENTER);
   fill(255);
@@ -23,10 +24,27 @@ function setup() {
 }
 
 function draw() {
-  background(51);
+  background(10, 10);
 
+noStroke();
+fill(0, 80, 100);
+for (let x = 0; x <= width; x = x + 30) {
+  for (let y = 0; y <= height; y = y + 30) {
+    // starting point of each circle depends on mouse position
+    let xAngle = map(mouseX, 0, width, -5 * PI, 5 * PI, true);
+    let yAngle = map(mouseY, 0, height, -5 * PI, 5 * PI, true);
+    // and also varies based on the particle's location
+    let angle = xAngle * (x / width) + yAngle * (y / height);
 
+    // each particle moves in a circle
+    let myX = x + 60 * cos(1.68 * PI * t + angle);
+    let myY = y + 30 * sin(1.68 * PI * t + angle);
 
+    ellipse(myX, myY, 10); // draw particle
+  }
+}
+
+t = t + 0.01;
 
 
 
@@ -36,15 +54,15 @@ function draw() {
 
 
   stroke(255);
-  strokeWeight(5);
+  strokeWeight(7);
   line(cx, cy, cx + cos(s) * secondsRadius, cy + sin(s) * secondsRadius);
-  strokeWeight(2);
+  strokeWeight(8);
   line(cx, cy, cx + cos(m) * minutesRadius, cy + sin(m) * minutesRadius);
-  strokeWeight(4);
+  strokeWeight(10);
   line(cx, cy, cx + cos(h) * hoursRadius, cy + sin(h) * hoursRadius);
 
 
-  strokeWeight(10);
+  strokeWeight(30);
   beginShape(POINTS);
   for (var a = 0; a < 360; a+=30) {
     var angle = radians(a);
@@ -53,9 +71,6 @@ function draw() {
     vertex(x, y);
   }
   endShape();
-
-
-
 
 
 }

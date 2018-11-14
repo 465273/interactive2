@@ -1,0 +1,33 @@
+/* reset padding and margins */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+  background: grey;
+}
+
+iframe {
+	width: 950px;
+	height: 3510px;
+	border: none;
+}
+
+
+/* container */
+
+#container {
+	margin: 20px auto;
+
+/*  for two people  */
+  width: 1292px;
+	display: grid;
+  grid-template-columns: 1fr 1fr;
+
+/*   for three people */
+  /* 	width: 1338px;
+	grid-template-columns: 1fr 1fr 1fr; */
+}

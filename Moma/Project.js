@@ -21,6 +21,10 @@ function draw() {
 
 
 for (var a = 10; a < width-10; a = a + 100) {
-  ellipse(a, height/1, mouseX, mouseY);
+  ellipse(a, height/1.5, mouseX, mouseY);
+}
+
+for (var a = 10; a < width-10; a = a + 100) {
+  ellipse(a, height/9, mouseX, mouseY);
 }
 }
