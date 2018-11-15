@@ -7,7 +7,7 @@ var clockDiameter;
 let t = 0; // time variable
 
 function setup() {
-  createCanvas(1420, 685);
+  createCanvas(1420, 690);
   stroke(255);
   rectMode(CENTER);
   fill(255);
