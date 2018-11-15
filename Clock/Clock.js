@@ -25,6 +25,7 @@ function setup() {
 
 function draw() {
   background(10, 10);
+  ellipse(cx, cy, clockDiameter + 25, clockDiameter + 25);
 
 noStroke();
 fill(0, 80, 100);
@@ -45,7 +46,6 @@ for (let x = 0; x <= width; x = x + 30) {
 }
 
 t = t + 0.01;
-
 
 
   var s = map(second(), 0, 60, 0, TWO_PI) - HALF_PI;
