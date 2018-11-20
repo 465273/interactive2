@@ -14,6 +14,8 @@ function draw() {
 
   for (var i = 0; i < x.length; i = i + 10) {
     ellipse(x[i], y[i], 1 + (x.length - i));
+    strokeWeight(2);
+    stroke(10);
   }
 
   x = x.slice(-100); // keep the last 50 x values
@@ -21,10 +23,14 @@ function draw() {
 
 
 for (var a = 10; a < width-10; a = a + 100) {
-  ellipse(a, height/1.5, mouseX, mouseY);
+  ellipse(a, 0, mouseX, mouseY);
+  strokeWeight(1);
+  stroke(200);
 }
 
 for (var a = 10; a < width-10; a = a + 100) {
-  ellipse(a, height/9, mouseX, mouseY);
+  ellipse(a, 700, mouseX, mouseY);
+  strokeWeight(1);
+  stroke(200);
 }
 }
