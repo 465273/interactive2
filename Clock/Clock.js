@@ -28,7 +28,7 @@ function draw() {
   ellipse(cx, cy, clockDiameter + 25, clockDiameter + 25);
 
 noStroke();
-fill(0, 80, 100);
+fill(0, 100, 50);
 for (let x = 0; x <= width; x = x + 30) {
   for (let y = 0; y <= height; y = y + 30) {
     // starting point of each circle depends on mouse position
