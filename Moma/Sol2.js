@@ -78,7 +78,7 @@ function draw() {
   translate(-500, 0, 0);
   rotateZ(frameCount * 0.02);
   rotateX(frameCount * 0.02);
-  rotateY(mouseX * 0.005);
+  rotateY(mouseY * 0.005);
   specularMaterial(255);
   box(50, 50, 50);
   pop();
@@ -98,7 +98,7 @@ function draw() {
   translate(-100, 0, 0);
   rotateZ(frameCount * 0.02);
   rotateX(frameCount * 0.02);
-  rotateY(mouseX * 0.005);
+  rotateY(mouseY * 0.005);
   specularMaterial(255);
   box(150, 20, 50);
   pop();
@@ -118,7 +118,7 @@ function draw() {
   translate(300, 0, 0);
   rotateZ(frameCount * 0.02);
   rotateX(frameCount * 0.02);
-  rotateY(mouseX * 0.005);
+  rotateY(mouseY * 0.005);
   specularMaterial(255);
   box(50, 50, 50);
   pop();
@@ -148,7 +148,7 @@ function draw() {
   translate(-300, 200, 0);
   rotateZ(frameCount * 0.02);
   rotateX(frameCount * 0.005);
-  rotateY(mouseX * 0.005);
+  rotateY(mouseY * 0.005);
   specularMaterial(255);
   box(50, 50, 50);
   pop();
@@ -168,7 +168,7 @@ function draw() {
   translate(100, 200, 0);
   rotateZ(frameCount * 0.02);
   rotateX(frameCount * 0.005);
-  rotateY(mouseX * 0.005);
+  rotateY(mouseY * 0.005);
   specularMaterial(255);
   box(50, 50, 50);
   pop();
@@ -188,7 +188,7 @@ function draw() {
   translate(500, 200, 0);
   rotateZ(frameCount * 0.02);
   rotateX(frameCount * 0.005);
-  rotateY(mouseX * 0.005);
+  rotateY(mouseY * 0.005);
   specularMaterial(255);
   box(50, 50, 50);
   pop();
