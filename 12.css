@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+body {
+    background-color: #F5F5F5;
+    color: #555;
+    font-size: 1.1em;
+    font-family: 'Lato', sans-serif;
+}
+p {
+  width: 600px;
+  margin: 30px auto;
+}
+.element {
+  background-color: #16a085;
+  color: white;
+  width: 500px;
+  height: 300px;
+  margin: 30px auto;
+  text-align: justify;
+  shape-inside: polygon(50px 50px, 100px 50px, 100px 200px, 50px 200px);
+  shape-padding: 20px;
+  transition: all 0.5s ease;
+  -webkit-clip-path:  polygon(50px 50px, 100px 50px, 100px 200px, 50px 200px);
+}
+.element:hover {
+  shape-inside: polygon(10px 10px,  150px 10px, 150px 300px, 10px 300px);
+  -webkit-clip-path: polygon(10px 10px,  150px 10px, 150px 300px, 10px 300px);
+
+ /* shape-inside: circle(50%, 50%, 50%);
+  -webkit-clip-path: circle(50%, 50%, 50%); */
+}

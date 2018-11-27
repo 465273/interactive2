@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(1100, 700);
+  createCanvas(1100, windowHeight);
 }
 
 var x = []; // new empty array
@@ -8,6 +8,7 @@ var y = []; // new empty array
 function draw() {
   background(255);
   noFill();
+  noCursor();
 
   x.push(mouseX); // equivalent to append(x, mouseX)
   y.push(mouseY); // equivalent to append(y, mouseY)
