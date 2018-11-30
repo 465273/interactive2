@@ -10,20 +10,20 @@ function draw() {
 
     //bottom left blue
     stroke(50, 100, 200, 255);
-    line(random(windowWidth/30, windowWidth/1.8), random(windowHeight/1.1, windowHeight/3.5), windowWidth/30, windowHeight/1.1) ;
+    line(random(windowWidth/30, windowWidth/1.8), random(windowHeight/1.1, windowHeight/3.5), mouseX - windowWidth/3, mouseY + windowHeight/2.5) ;
     strokeWeight(2);
 
     //bottom right blue
     stroke(50, 100, 200, 255);
-    line(random(windowWidth/1.4, windowWidth/3.5), random(windowHeight/1.1, windowHeight/3.5), windowWidth/1.4, windowHeight/1.1);
+    line(random(windowWidth/1.4, windowWidth/3.5), random(windowHeight/1.1, windowHeight/3.5), mouseX + windowWidth/2.8, mouseY + windowHeight/2.5);
 
     //top right blue
     stroke(50, 100, 200, 255);
-    line(random(windowWidth/1.4, windowWidth/3.5), random(windowHeight/20, windowHeight/1.5), windowWidth/1.4, windowHeight/20);
+    line(random(windowWidth/1.4, windowWidth/3.5), random(windowHeight/20, windowHeight/1.5), mouseX + windowWidth/2.8, mouseY - windowHeight/2.2);
 
     //top left blue
     stroke(50, 100, 200, 255);
-    line(random(windowWidth/30, windowWidth/1.8), random(windowHeight/20, windowHeight/1.5), windowWidth/30, windowHeight/20);
+    line(random(windowWidth/30, windowWidth/1.8), random(windowHeight/20, windowHeight/1.5), mouseX - windowWidth/3, mouseY - windowHeight/2.2);
 
     //middle yellow
     stroke(255, 240, 40);
@@ -31,18 +31,18 @@ function draw() {
 
     //left red
     stroke(250, 50, 50, 255);
-    line(random(windowWidth/10, windowWidth/1.8), random(windowHeight/1.1, windowHeight/10), windowWidth/30, windowHeight/2);
+    line(random(windowWidth/10, windowWidth/1.8), random(windowHeight/1.1, windowHeight/10), mouseX - windowWidth/3, mouseY);
 
     //right red
     stroke(250, 50, 50, 255);
-    line(random(windowWidth/1.5, windowWidth/3.5), random(windowHeight/1.1, windowHeight/10), windowWidth/1.4, windowHeight/2);
+    line(random(windowWidth/1.5, windowWidth/3.5), random(windowHeight/1.1, windowHeight/10), mouseX + windowWidth/2.8, mouseY);
 
     //top red
     stroke(250, 50, 50, 255);
-    line(random(windowWidth/1.5, windowWidth/10), random(windowHeight/20, windowHeight/1.5), windowWidth/2.6, windowHeight/20);
+    line(random(windowWidth/1.5, windowWidth/10), random(windowHeight/20, windowHeight/1.5), mouseX, mouseY - windowHeight/2.2);
 
     //bottom red
     stroke(250, 50, 50, 255);
-    line(random(windowWidth/1.5, windowWidth/10), random(windowHeight/1.1, windowHeight/3.5), windowWidth/2.6, windowHeight/1.1);
+    line(random(windowWidth/1.5, windowWidth/10), random(windowHeight/1.1, windowHeight/3.5), mouseX, mouseY + windowHeight/2.5);
   }
 }
