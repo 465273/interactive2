@@ -2,7 +2,7 @@ var bg;
 
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
-  bg = loadImage('interactive2/Moma/SolLewitt.png');
+  bg = loadImage('Moma/SolLewitt.png');
 }
 
 function draw() {
