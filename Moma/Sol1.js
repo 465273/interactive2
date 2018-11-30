@@ -27,7 +27,7 @@ function draw() {
 
     //middle yellow
     stroke(255, 240, 40);
-    line(random(windowWidth/30, windowWidth/1.4), random(windowHeight/20, windowHeight/1.1), windowWidth/2.6, windowHeight/2);
+    line(random(windowWidth/30, windowWidth/1.4), random(windowHeight/20, windowHeight/1.1), mouseX, mouseY);
 
     //left red
     stroke(250, 50, 50, 255);
