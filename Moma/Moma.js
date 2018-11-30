@@ -26,12 +26,12 @@ var sketch = function (p) {
     p.strokeWeight(0);
     p.stroke(0);
     p.push();
-    p.translate(p.windowWidth/4, p.windowHeight/15, 0);
+    p.translate(p.windowWidth/4, p.windowHeight/100, 0);
     p.rotateZ(p.frameCount * 0.02);
     p.rotateX(p.mouseX * 0.002);
     p.rotateY(p.mouseY * 0.002);
     p.ambientMaterial(255);
-    p.box(100, 100, 100);
+    p.box(50, 50, 50);
     p.strokeWeight(2);
    // image(i,0,0);
     p.pop();
@@ -64,19 +64,19 @@ p.draw = function() {
   for (var i = 3; i <= 100; i = i + 15) {
     p.strokeWeight(3);
     p.stroke(0, 0, 255)
-    p.line(p.windowWidth/2.2, p.windowHeight/2, p.random(p.windowWidth/1.85, p.windowWidth/2.2), p.random(p.windowHeight/1.9, p.windowHeight/1.5));
+    p.line(p.windowWidth/2.2, p.windowHeight/2.2, p.random(p.windowWidth/1.85, p.windowWidth/2.2), p.random(p.windowHeight/2.2, p.windowHeight/1.8));
   }
 
   for (var i = 3; i <= 100; i = i + 15) {
     p.strokeWeight(3);
     p.stroke(255, 0, 0)
-    p.line(p.windowWidth/1.8, p.windowHeight/2, p.random(p.windowWidth/1.85, p.windowWidth/2.2), p.random(p.windowHeight/1.9, p.windowHeight/1.5));
+    p.line(p.windowWidth/1.8, p.windowHeight/2.2, p.random(p.windowWidth/1.85, p.windowWidth/2.2), p.random(p.windowHeight/2.2, p.windowHeight/1.8));
   }
 
   for (var i = 3; i <= 100; i = i + 15) {
     p.strokeWeight(3);
     p.stroke(255, 255, 0)
-    p.line(p.windowWidth/2.2, p.windowHeight/1.4, p.random(p.windowWidth/1.9, p.windowWidth/2.2), p.random(p.windowHeight/1.9, p.windowHeight/1.5));
+    p.line(p.windowWidth/2.2, p.windowHeight/1.8, p.random(p.windowWidth/1.9, p.windowWidth/2.2), p.random(p.windowHeight/2.2, p.windowHeight/1.8));
   }
 
 
@@ -86,21 +86,21 @@ p.draw = function() {
     p.strokeWeight(2);
     p.noFill()
     p.stroke(0);
-    p.ellipse(p.windowWidth/5, p.windowHeight/1.7, p.mouseX/3, p.mouseX/3);
+    p.ellipse(p.windowWidth/5, p.windowHeight/2, p.mouseX/6, p.mouseX/6);
   }
 
   for (var a = 10; a < p.width-10; a = a + 100) {
     p.strokeWeight(2);
     p.noFill()
     p.stroke(0);
-    p.ellipse(p.windowWidth/5, p.windowHeight/1.7, p.mouseX/5, p.mouseX/5);
+    p.ellipse(p.windowWidth/5, p.windowHeight/2, p.mouseX/8, p.mouseX/8);
   }
 
   for (var a = 10; a < p.width-10; a = a + 100) {
     p.strokeWeight(2);
     p.noFill()
     p.stroke(0);
-    p.ellipse(p.windowWidth/5, p.windowHeight/1.7, p.mouseX/12, p.mouseX/12);
+    p.ellipse(p.windowWidth/5, p.windowHeight/2, p.mouseX/12, p.mouseX/12);
   }
 
 }
