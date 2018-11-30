@@ -8,7 +8,7 @@ function draw() {
   var locX = mouseX - height / 2;
   var locY = mouseY - width / 2;
 
-  ambientLight(0);
+  ambientLight(30);
   directionalLight(200, 200, 200, 0.25, 0.25, 0.25);
   pointLight(210, 255, 255, locX, locY, 250);
 

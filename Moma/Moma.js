@@ -1,21 +1,75 @@
-var bg;
+var sketch = function (p) {
 
-function setup() {
-  createCanvas(windowWidth, windowHeight, WEBGL);
-  bg = loadImage('Moma/SolLewitt.png');
+  p.setup = function(){
+    let c = p.createCanvas(p.windowWidth, p.windowHeight, p.WEBGL);
+
+    c.elt.style.position = 'fixed'
+    c.elt.style.left = '0'
+    c.elt.style.top = '0'
+    p.frameRate(20);
+  }
+
+  p.draw = function() {
+    p.stroke(p.random(250,0), p.random(250,0), p.random(250,0));
+    p.background(0, 0, 0, 0);
+    var locX = p.mouseX - p.height / 2;
+    var locY = p.mouseY - p.width / 2;
+
+    p.ambientLight(180);
+    p.directionalLight(200, 200, 200, 0.25, 0.25, 0.25);
+    p.pointLight(255, 255, 255, locX, locY, 250);
+    // strokeCap(ROUND);
+
+    //p.line(p.mouseX - p.windowWidth/2, p.mouseY - p.windowHeight/2, p.pmouseX - p.windowWidth/2, p.pmouseY - p.windowHeight/2);
+    p.noCursor()
+
+    p.strokeWeight(0);
+    p.stroke(0);
+    p.push();
+    p.translate(p.windowWidth/17, -150, 0);
+    p.rotateZ(p.frameCount * 0.02);
+    p.rotateX(p.mouseX * 0.005);
+    p.rotateY(p.mouseY * 0.005);
+    p.ambientMaterial(255);
+    p.box(100, 100, 100);
+    p.strokeWeight(2);
+   // image(i,0,0);
+    p.pop();
+  }
+
+};
+
+
+
+
+
+var sketch2 = function (p) {
+
+p.setup = function(){
+  let c = p.createCanvas(p.windowWidth, p.windowHeight);
+
+  c.elt.style.position = 'fixed'
+  c.elt.style.left = '0'
+  c.elt.style.top = '0'
+  p.frameRate(20);
 }
 
-function draw() {
-  background(255);
-  strokeWeight(10);
+p.draw = function() {
+    p.strokeWeight(10);
+    p.stroke(p.random(250,0), p.random(250,0), p.random(250,0));
+  p.background(255);
+  p.line(p.mouseX, p.mouseY, p.pmouseX, p.pmouseY);
+  p.noCursor()
 
-//4
-  push();
-  translate(windowWidth/17, -150, 0);
-  rotateZ(frameCount * 0.02);
-  rotateX(mouseX * 0.005);
-  rotateY(mouseY * 0.005);
-  ambientMaterial(255);
-  box(100, 100, 100);
-  pop();
+  for (var i = 3; i <= 100; i = i + 15) {
+    p.strokeWeight(3);
+    p.stroke(0, 0, 255)
+    p.line(p.windowWidth/4, p.windowHeight/2, p.random(p.windowWidth/3.5, p.windowWidth/3), p.random(p.windowHeight/1.8, p.windowHeight/1.5));
+
+  }
+
 }
+};
+
+new p5(sketch2);
+new p5(sketch);

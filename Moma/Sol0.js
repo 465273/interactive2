@@ -30,6 +30,12 @@ for (var a = 10; a < width-10; a = a + 100) {
   ellipse(windowWidth/2.2, windowHeight/5, mouseY, mouseY);
 }
 
+for (var a = 10; a < width-10; a = a + 100) {
+  strokeWeight(1);
+  stroke(200);
+  ellipse(windowWidth/2.2, windowHeight/5, mouseY, mouseY);
+}
+
 //bottom right
 for (var a = 10; a < width-10; a = a + 100) {
   strokeWeight(1);
@@ -45,7 +51,7 @@ for (var a = 10; a < width-10; a = a + 100) {
 }
 
 //bottom left
-for (var a = 40; a < width-10; a = a + 100) {
+for (var a = 10; a < width-10; a = a + 100) {
   strokeWeight(1);
   stroke(200);
   ellipse(windowWidth/5, windowHeight/1.5, mouseY, mouseY);
