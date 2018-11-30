@@ -8,10 +8,11 @@ function draw() {
 
   for (var i = 10; i <= 100; i = i + 15) {
 
+    strokeWeight(2);
+
     //bottom left blue
     stroke(50, 100, 200, 255);
     line(random(windowWidth/30, windowWidth/1.8), random(windowHeight/1.1, windowHeight/3.5), mouseX - windowWidth/3, mouseY + windowHeight/2.5) ;
-    strokeWeight(2);
 
     //bottom right blue
     stroke(50, 100, 200, 255);

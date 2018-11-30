@@ -6,7 +6,7 @@ var sketch = function (p) {
     c.elt.style.position = 'fixed'
     c.elt.style.left = '0'
     c.elt.style.top = '0'
-    p.frameRate(20);
+    p.frameRate(200);
   }
 
   p.draw = function() {
@@ -26,7 +26,7 @@ var sketch = function (p) {
     p.strokeWeight(0);
     p.stroke(0);
     p.push();
-    p.translate(p.windowWidth/4, p.windowHeight/100, 0);
+    p.translate(p.windowWidth/3.5, p.windowHeight/100, 0);
     p.rotateZ(p.frameCount * 0.02);
     p.rotateX(p.mouseX * 0.002);
     p.rotateY(p.mouseY * 0.002);

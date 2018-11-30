@@ -2,16 +2,16 @@ function setup() {
   createCanvas(windowWidth/1.4, windowHeight);
 }
 
-var x = []; // new empty array
-var y = []; // new empty array
+var x = []; 
+var y = []; 
 
 function draw() {
   background(255);
   noFill();
   noCursor();
 
-  x.push(mouseX); // equivalent to append(x, mouseX)
-  y.push(mouseY); // equivalent to append(y, mouseY)
+  x.push(mouseX); 
+  y.push(mouseY); 
 
   for (var i = 0; i < x.length; i = i + 10) {
     strokeWeight(2);
@@ -20,8 +20,8 @@ function draw() {
 
   }
 
-  x = x.slice(-100); // keep the last 50 x values
-  y = y.slice(-100); // keep the last 50 y values
+  x = x.slice(-100); 
+  y = y.slice(-100); 
 
 //top right
 for (var a = 10; a < width-10; a = a + 100) {
