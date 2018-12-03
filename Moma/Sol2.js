@@ -69,8 +69,8 @@ var sketch = function(p) {
     var locY = p.mouseY - p.width / 2;
 
     p.ambientLight(30);
-    p.directionalLight(150, 230, 230, 0.25, 0.25, 0.25);
-    p.pointLight(100, 255, 255, locX, locY, 250);
+    p.directionalLight(200, 230, 230, 0.25, 0.25, 0.25);
+    p.pointLight(200, 255, 255, locX, locY, 250);
     p.noStroke()
     p.noCursor()
 
@@ -408,8 +408,8 @@ var sketch2 = function(p) {
 
   p.draw = function() {
 
-    p.strokeWeight(5);
-    p.stroke(p.random(50, 0), p.random(200, 100), p.random(200, 100));
+    p.strokeWeight(2);
+    p.stroke(p.random(200, 150), p.random(250, 200), p.random(250, 200));
     p.background(0, 100);
     p.line(p.mouseX, p.mouseY, p.pmouseX, p.pmouseY);
     p.noCursor()
