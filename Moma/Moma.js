@@ -9,6 +9,10 @@ var sketch = function (p) {
     p.frameRate(200);
   }
 
+   p.windowResized = function() {
+    p.resizeCanvas(p.windowWidth, p.windowHeight);
+  }
+
   p.draw = function() {
     p.stroke(p.random(250,0), p.random(250,0), p.random(250,0));
     p.background(0, 0, 0, 0);
@@ -23,24 +27,22 @@ var sketch = function (p) {
     //p.line(p.mouseX - p.windowWidth/2, p.mouseY - p.windowHeight/2, p.pmouseX - p.windowWidth/2, p.pmouseY - p.windowHeight/2);
     p.noCursor()
 
-    p.strokeWeight(0);
-    p.stroke(0);
+    p.stroke(255);
+    p.strokeWeight(2);
     p.push();
+
     p.translate(p.windowWidth/3.5, p.windowHeight/100, 0);
     p.rotateZ(p.frameCount * 0.02);
     p.rotateX(p.mouseX * 0.002);
     p.rotateY(p.mouseY * 0.002);
     p.ambientMaterial(255);
     p.box(50, 50, 50);
-    p.strokeWeight(2);
+
    // image(i,0,0);
     p.pop();
   }
 
 };
-
-
-
 
 
 var sketch2 = function (p) {

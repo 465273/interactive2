@@ -2,26 +2,36 @@ function setup() {
   createCanvas(windowWidth/1.4, windowHeight);
 }
 
-var x = []; 
-var y = []; 
+windowResized = function() {
+ resizeCanvas(windowWidth/1.4, windowHeight);
+}
+
+var x = [];
+var y = [];
 
 function draw() {
   background(255);
   noFill();
   noCursor();
 
-  x.push(mouseX); 
-  y.push(mouseY); 
+  x.push(mouseX);
+  y.push(mouseY);
+
+
 
   for (var i = 0; i < x.length; i = i + 10) {
     strokeWeight(2);
-    stroke(10);
+    stroke(0);
     ellipse(x[i], y[i], 1 + (x.length - i));
+
+    if (mouseIsPressed) {
+    stroke(200)
+    }
 
   }
 
-  x = x.slice(-100); 
-  y = y.slice(-100); 
+  x = x.slice(-100);
+  y = y.slice(-100);
 
 //top right
 for (var a = 10; a < width-10; a = a + 100) {

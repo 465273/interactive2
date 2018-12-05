@@ -1,0 +1,10 @@
+#button-2{
+	background:#57239F;
+}
+#button-2:hover{
+
+	-webkit-transform: scale(0.3);
+        -ms-transform: scale(0.3);
+        transform: scale(0.3);
+  background:#C5CAE9;
+}

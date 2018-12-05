@@ -7,7 +7,12 @@ var sketch = function(p) {
     c.elt.style.left = '0'
     c.elt.style.top = '0'
     p.frameRate(200);
+
   }
+  
+  p.windowResized = function() {
+   p.resizeCanvas(p.windowWidth, p.windowHeight);
+ }
 	var z1 = 0;
   var y1 = 0;
 
@@ -71,7 +76,8 @@ var sketch = function(p) {
     p.ambientLight(30);
     p.directionalLight(200, 230, 230, 0.25, 0.25, 0.25);
     p.pointLight(200, 255, 255, locX, locY, 250);
-    p.noStroke()
+    p.stroke(170);
+    p.strokeWeight(0);
     p.noCursor()
 
     //1
