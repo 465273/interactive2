@@ -28,7 +28,7 @@ var sketch = function (p) {
     p.noCursor()
 
     p.stroke(255);
-    p.strokeWeight(2);
+    p.strokeWeight(0);
     p.push();
 
     p.translate(p.windowWidth/3.5, p.windowHeight/100, 0);
