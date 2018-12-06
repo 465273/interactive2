@@ -58,26 +58,26 @@ p.setup = function(){
 
 p.draw = function() {
     p.strokeWeight(4);
-    p.stroke(p.random(250,0), p.random(250,0), p.random(250,0));
+    p.stroke(p.random(0,100), p.random(0,100), p.random(0,100));
   p.background(200);
   p.line(p.mouseX, p.mouseY, p.pmouseX, p.pmouseY);
   p.noCursor()
 
   for (var i = 3; i <= 100; i = i + 15) {
     p.strokeWeight(2);
-    p.stroke(0, 0, 150)
+    p.stroke(250)
     p.line(p.windowWidth/2.8, p.windowHeight/2.4, p.random(p.windowWidth/2.8, p.windowWidth/2.45), p.random(p.windowHeight/2.4, p.windowHeight/1.9));
   }
 
   for (var i = 3; i <= 100; i = i + 15) {
     p.strokeWeight(2);
-    p.stroke(150, 0, 0)
+    p.stroke(150)
     p.line(p.windowWidth/2.45, p.windowHeight/2.4, p.random(p.windowWidth/2.8, p.windowWidth/2.45), p.random(p.windowHeight/2.4, p.windowHeight/1.9));
   }
 
   for (var i = 3; i <= 100; i = i + 15) {
     p.strokeWeight(2);
-    p.stroke(150, 150, 0)
+    p.stroke(100)
     p.line(p.windowWidth/2.8, p.windowHeight/1.9, p.random(p.windowWidth/2.8, p.windowWidth/2.45), p.random(p.windowHeight/2.4, p.windowHeight/1.9));
   }
 
