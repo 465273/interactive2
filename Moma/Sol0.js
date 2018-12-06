@@ -1,9 +1,9 @@
 function setup() {
-  createCanvas(windowWidth/1.4, windowHeight);
+  createCanvas(windowWidth, windowHeight);
 }
 
 windowResized = function() {
- resizeCanvas(windowWidth/1.4, windowHeight);
+ resizeCanvas(windowWidth, windowHeight);
 }
 
 var x = [];
