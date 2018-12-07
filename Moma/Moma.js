@@ -31,7 +31,7 @@ var sketch = function (p) {
     p.strokeWeight(0);
     p.push();
 
-    p.translate(-p.windowWidth/8.5, p.windowHeight/3.8, 0);
+    p.translate(-p.windowWidth/11.2, p.windowHeight/3.5, 0);
     p.rotateZ(p.frameCount * 0.02);
     p.rotateX(p.mouseX * 0.002);
     p.rotateY(p.mouseY * 0.002);
@@ -66,19 +66,19 @@ p.draw = function() {
   for (var i = 3; i <= 100; i = i + 15) {
     p.strokeWeight(2);
     p.stroke(250)
-    p.line(p.windowWidth/2.8, p.windowHeight/2.4, p.random(p.windowWidth/2.8, p.windowWidth/2.45), p.random(p.windowHeight/2.4, p.windowHeight/1.9));
+    p.line(p.windowWidth/2.67, p.windowHeight/2.4, p.random(p.windowWidth/2.67, p.windowWidth/2.25), p.random(p.windowHeight/2.4, p.windowHeight/1.77));
   }
 
   for (var i = 3; i <= 100; i = i + 15) {
     p.strokeWeight(2);
     p.stroke(150)
-    p.line(p.windowWidth/2.45, p.windowHeight/2.4, p.random(p.windowWidth/2.8, p.windowWidth/2.45), p.random(p.windowHeight/2.4, p.windowHeight/1.9));
+    p.line(p.windowWidth/2.25, p.windowHeight/2.4, p.random(p.windowWidth/2.67, p.windowWidth/2.25), p.random(p.windowHeight/2.4, p.windowHeight/1.77));
   }
 
   for (var i = 3; i <= 100; i = i + 15) {
     p.strokeWeight(2);
     p.stroke(100)
-    p.line(p.windowWidth/2.8, p.windowHeight/1.9, p.random(p.windowWidth/2.8, p.windowWidth/2.45), p.random(p.windowHeight/2.4, p.windowHeight/1.9));
+    p.line(p.windowWidth/2.67, p.windowHeight/1.77, p.random(p.windowWidth/2.67, p.windowWidth/2.25), p.random(p.windowHeight/2.4, p.windowHeight/1.77));
   }
 
 
@@ -88,21 +88,21 @@ p.draw = function() {
     p.strokeWeight(2);
     p.noFill()
     p.stroke(50);
-    p.ellipse(p.windowWidth/2.605, p.windowHeight/5.8, p.mouseX/6, p.mouseX/6);
+    p.ellipse(p.windowWidth/2.45, p.windowHeight/5.3, p.mouseX/6, p.mouseX/6);
   }
 
   for (var a = 10; a < p.width-10; a = a + 100) {
     p.strokeWeight(2);
     p.noFill()
     p.stroke(50);
-    p.ellipse(p.windowWidth/2.605, p.windowHeight/5.8, p.mouseX/8, p.mouseX/8);
+    p.ellipse(p.windowWidth/2.45, p.windowHeight/5.3, p.mouseX/8, p.mouseX/8);
   }
 
   for (var a = 10; a < p.width-10; a = a + 100) {
     p.strokeWeight(2);
     p.noFill()
     p.stroke(50);
-    p.ellipse(p.windowWidth/2.605, p.windowHeight/5.8, p.mouseX/12, p.mouseX/12);
+    p.ellipse(p.windowWidth/2.45, p.windowHeight/5.3, p.mouseX/12, p.mouseX/12);
   }
 
 }
