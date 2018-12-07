@@ -88,21 +88,21 @@ p.draw = function() {
     p.strokeWeight(2);
     p.noFill()
     p.stroke(50);
-    p.ellipse(p.windowWidth/2.45, p.windowHeight/5.3, p.mouseX/6, p.mouseX/6);
+    p.ellipse(p.windowWidth/2.43, p.windowHeight/5.3, p.mouseX/6, p.mouseX/6);
   }
 
   for (var a = 10; a < p.width-10; a = a + 100) {
     p.strokeWeight(2);
     p.noFill()
     p.stroke(50);
-    p.ellipse(p.windowWidth/2.45, p.windowHeight/5.3, p.mouseX/8, p.mouseX/8);
+    p.ellipse(p.windowWidth/2.43, p.windowHeight/5.3, p.mouseX/8, p.mouseX/8);
   }
 
   for (var a = 10; a < p.width-10; a = a + 100) {
     p.strokeWeight(2);
     p.noFill()
     p.stroke(50);
-    p.ellipse(p.windowWidth/2.45, p.windowHeight/5.3, p.mouseX/12, p.mouseX/12);
+    p.ellipse(p.windowWidth/2.43, p.windowHeight/5.3, p.mouseX/12, p.mouseX/12);
   }
 
 }
