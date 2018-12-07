@@ -66,19 +66,19 @@ p.draw = function() {
   for (var i = 3; i <= 100; i = i + 15) {
     p.strokeWeight(2);
     p.stroke(250)
-    p.line(p.windowWidth/2.67, p.windowHeight/2.4, p.random(p.windowWidth/2.67, p.windowWidth/2.25), p.random(p.windowHeight/2.4, p.windowHeight/1.77));
+    p.line(p.windowWidth/2.67, p.windowHeight/2.4, p.random(p.windowWidth/2.67, p.windowWidth/2.25), p.random(p.windowHeight/2.4, p.windowHeight/1.75));
   }
 
   for (var i = 3; i <= 100; i = i + 15) {
     p.strokeWeight(2);
     p.stroke(150)
-    p.line(p.windowWidth/2.25, p.windowHeight/2.4, p.random(p.windowWidth/2.67, p.windowWidth/2.25), p.random(p.windowHeight/2.4, p.windowHeight/1.77));
+    p.line(p.windowWidth/2.25, p.windowHeight/2.4, p.random(p.windowWidth/2.67, p.windowWidth/2.25), p.random(p.windowHeight/2.4, p.windowHeight/1.75));
   }
 
   for (var i = 3; i <= 100; i = i + 15) {
     p.strokeWeight(2);
     p.stroke(100)
-    p.line(p.windowWidth/2.67, p.windowHeight/1.77, p.random(p.windowWidth/2.67, p.windowWidth/2.25), p.random(p.windowHeight/2.4, p.windowHeight/1.77));
+    p.line(p.windowWidth/2.67, p.windowHeight/1.75, p.random(p.windowWidth/2.67, p.windowWidth/2.25), p.random(p.windowHeight/2.4, p.windowHeight/1.75));
   }
 
 
